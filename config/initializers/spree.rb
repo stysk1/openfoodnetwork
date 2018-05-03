@@ -15,6 +15,7 @@ require "#{Rails.root}/app/models/spree/gateway_decorator"
 Spree.config do |config|
   config.shipping_instructions = true
   config.address_requires_state = true
+  config.currency = 'USD'
 
   # -- spree_paypal_express
   # Auto-capture payments. Without this option, payments must be manually captured in the paypal interface.

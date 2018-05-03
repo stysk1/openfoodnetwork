@@ -1,0 +1,2089 @@
+Script started on Wed May  2 21:18:12 2018
+[?25h[0G[K[?25h[0G[K[sysadmin@csc415-server23 openfoodnetwork]$ script/setup
+[0;31mOpen Food Network requires postgresql 9.5[0m
+[sysadmin@csc415-server23 openfoodnetwork]$ script
+Script started, file is typescript
+[?25h[0G[K[?25h[0G[K[sysadmin@csc415-server23 openfoodnetwork]$ bundlebundle exec re ail
+sr
+bash: bundlebundle: command not found...
+[sysadmin@csc415-server23 openfoodnetwork]$ sdfsdfdfdf          bundle exec rails serv
+er
+
+=> Booting Unicorn
+=> Rails 3.2.22.5 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+/home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/railtie.rb:51:in `block in <class:Railtie>': Value assigned to config.time_zone not recognized.Run "rake -D time" for a list of tasks for finding appropriate time zone names. (RuntimeError)
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `run'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `each'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/sysadmin/assignments/openfoodnetwork/config/environment.rb:5:in `<top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/skylight-1.6.1/lib/skylight/probes.rb:83:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:3:in `block in <main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `initialize'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `new'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `<main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `parse_file'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:200:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:46:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:254:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:70:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `tap'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+[sysadmin@csc415-server23 openfoodnetwork]$ 
+[sysadmin@csc415-server23 openfoodnetwork]$ ls
+CONTRIBUTING.md  [0m[01;34mconfig[0m                      [01;34mscript[0m
+Gemfile          config.ru                   setup
+Gemfile.lock     [01;34mdb[0m                          [01;34mspec[0m
+Guardfile        [01;34mdoc[0m                         [01;34mtmp[0m
+LICENCE.txt      knapsack_rspec_report.json  typescript
+Procfile         [01;34mlib[0m                         [01;34mvendor[0m
+README.md        [01;34mlog[0m                         zeus.json
+Rakefile         package.json
+[01;34mapp[0m              [01;34mpublic[0m
+[sysadmin@csc415-server23 openfoodnetwork]$ cd config/
+[sysadmin@csc415-server23 config]$ ls
+application.rb           environment.rb   routes.rb
+application.yml.example  [0m[01;34menvironments[0m     schedule.rb
+boot.rb                  [01;34minitializers[0m     spree.yml
+database.travis.yml      [01;34mlocales[0m          unicorn.rb
+database.yml             ng-test.conf.js
+[sysadmin@csc415-server23 config]$ cd  nano unicorn.rb 
+7[?47h[0;10m[4l[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.3.1         File: unicorn.rb                          [B[0;10mworker_processes 2 # amount of unicorn workers to spin up[Btimeout 120[4;21H# restarts workers that hang for 30 seconds[48;26H[0;10;7m[ Read 2 lines ][B^G[0;10m Get Help[0;10;7m^O[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[3d[49d[J[50;67H[50;1H[2J[?47l8[sysadmin@csc415-server23 config]$ nano environment
+7[?47h[0;10m[4l[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.3.1         File: environment                         [48;28H[ New File ][B^G[0;10m Get Help[0;10;7m^O[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[3d[49d[J[50;67H[50;1H[2J[?47l8[sysadmin@csc415-server23 config]$ nano eno vironment.rb 
+7[?47h[0;10m[4l[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.3.1        File: environment.rb                       [B[0;10m# Load the rails application[Brequire_relative 'application'[6d# Initialize the rails application[BOpenfoodnetwork::Application.initialize![9dActiveRecord::Base.include_root_in_json = true[48;26H[0;10;7m[ Read 7 lines ][B^G[0;10m Get Help[0;10;7m^O[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[3d[49d[J[50;67H[50;1H[2J[?47l8[sysadmin@csc415-server23 config]$ cd initializers/
+[sysadmin@csc415-server23 initializers]$ ls
+0_depricated_db2fog.rb
+active_record_postgresql_referential_integrity_patch.rb
+acts_as_taggable_on.rb
+backtrace_silencers.rb
+content_config.rb
+delayed_job.rb
+delete_content_for.rb
+devise.rb
+i18n-js.rb
+inflections.rb
+js_template_helpers.rb
+mime_types.rb
+paperclip.rb
+postgres.rb
+secret_token.rb
+serializers.rb
+session_store.rb
+simple_form.rb
+spree.rb
+spree_auth_devise.rb
+stripe.rb
+user_class_extensions.rb
+wicked_pdf.rb
+wrap_parameters.rb
+[sysadmin@csc415-server23 initializers]$ cd ..
+[sysadmin@csc415-server23 config]$ ls
+application.rb           environment.rb   routes.rb
+application.yml.example  [0m[01;34menvironments[0m     schedule.rb
+boot.rb                  [01;34minitializers[0m     spree.yml
+database.travis.yml      [01;34mlocales[0m          unicorn.rb
+database.yml             ng-test.conf.js
+[sysadmin@csc415-server23 config]$ cd ..     nano boot.rb 
+7[?47h[0;10m[4l[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.3.1          File: boot.rb                            [B[0;10mrequire 'rubygems'[5d# Set up gems listed in the Gemfile.[BENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE$[Brequire 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])[48;26H[0;10;7m[ Read 6 lines ][B^G[0;10m Get Help[0;10;7m^O[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[3d[49d[J[50;67H[50;1H[2J[?47l8[sysadmin@csc415-server23 config]$ ls ..
+CONTRIBUTING.md  [0m[01;34mconfig[0m                      [01;34mscript[0m
+Gemfile          config.ru                   setup
+Gemfile.lock     [01;34mdb[0m                          [01;34mspec[0m
+Guardfile        [01;34mdoc[0m                         [01;34mtmp[0m
+LICENCE.txt      knapsack_rspec_report.json  typescript
+Procfile         [01;34mlib[0m                         [01;34mvendor[0m
+README.md        [01;34mlog[0m                         zeus.json
+Rakefile         package.json
+[01;34mapp[0m              [01;34mpublic[0m
+[sysadmin@csc415-server23 config]$ ls
+application.rb           environment.rb   routes.rb
+application.yml.example  [0m[01;34menvironments[0m     schedule.rb
+boot.rb                  [01;34minitializers[0m     spree.yml
+database.travis.yml      [01;34mlocales[0m          unicorn.rb
+database.yml             ng-test.conf.js
+[sysadmin@csc415-server23 config]$ nano application.t yml.example 
+7[?47h[0;10m[4l[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.3.1     File: application.yml.example                 [B[0;10m# Add application configuration variables here, as shown below.[B#[B# Change this, it has serious security implications.[B# Minimum 30 but usually 128 characters. To obtain run 'rake secre$SECRET_TOKEN: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[9dTIMEZONE: Melbourne[B# Default country for dropdowns etc. See for codes: http://en.wiki$DEFAULT_COUNTRY_CODE: AU[B# Locale for translation.[BLOCALE: en[B# For multilingual - ENV doesn't have array so pass it as string w$AVAILABLE_LOCALES: en,es,en-GB[B# Spree zone.[BCHECKOUT_ZONE: Australia[B# Find currency codes at http://en.wikipedia.org/wiki/ISO_4217.[BCURRENCY: AUD[21d# The whenever gem can set the `MAILTO` variable for our cron jobs.# You can define an email address to notify if any job outputs som$# But you need a working mail server setup so that the message is $# See: config/schedule.rb[B#SCHEDULE_NOTIFICATIONS: admin@example.com[27d# Mail settings[BMAIL_HOST: 'example.com'[BMAIL_DOMAIN: 'example.com'[BMAIL_PORT: 25[BSMTP_USERNAME: 'ofn'[BSMTP_PASSWORD: 'f00d'[34d# SingleSignOn login for Discourse[B#[B# DISCOURSE_SSO_SECRET should be a random string. It must be the s$#DISCOURSE_SSO_SECRET: ""[B#[B# DISCOURSE_URL must be the URL of your Discourse instance.[B#DISCOURSE_URL: "https://noticeboard.openfoodnetwork.org.au"[42d# see: https://developers.google.com/maps/documentation/javascript$# GOOGLE_MAPS_API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[45d# optional, see: https://www.skylight.io/oss[B# SKYLIGHT_AUTHENTICATION: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx$[48;26H[0;10;7m[ Read 53 lines ][B^G[0;10m Get Help[0;10;7m^O[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[3d[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[ACURRENC[48d[K[19;9H: AUD[1;58H[0;10;7mModified[19;13H[0;10m   USD[A[A[A[B: 	ustrali	====             United States[16;14H[15;29H[A[13;11H[12;26H[A  US[B[13;11H[14;25H[B[16;14H[17;25H[B[19;14H[B[21;25H[B[B[B[B[B[27;16H[28;25H[27;16H[A[25;25H[A[A[A[A[A[19;14H[18;25H[A[16;14H[15;25H[A[13;11H[12;25H[A[A[9;20H[A[7;25H[B[9;20H         https://open.spotify.com/track/3uYDO9dPLTVrgfwg7EYXSf                                                     New York[B[B[A[A[A[7;19H[B[9;19H[B[B[B[14d[B[19;14H[B[21;19H[B[B[B[B[B[27;16H[B	pl[B[30;14H[B	of[B[B[34;19H[B#[36;19H[B[B#[39;19H[B[B[42;19H[B[B[45;19H[B[B[3d[K[B# Mail settings[BMAIL_HOST: 'example.com'[K[BMAIL_DOMAIN: 'example.com'[K[BMAIL_PORT: 25[K[BSMTP_USERNAME: 'ofn'[BSMTP_PASSWORD: 'f00d'[B[K[B# SingleSignOn login for Discourse[B# [K[B# DISCOURSE_SSO_SECRET should be a random string. It must be the s$#DISCOURSE_SSO_SECRET: ""[K[B#[K[B DISCOURSE_URL must be the URL of your Discourse instance.[B#DISCOURSE_URL: "https://noticeboard.openfoodnetwork.org.au"[B[K[B# see: https://developers.google.com/maps/documentation/javascript$# GOOGLE_MAPS_API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[B[K[B# optional, see: https://www.skylight.io/oss[K[B# SKYLIGHT_AUTHENTICATION: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[B[K[B# Stripe Connect details for instance account[B# Find these under 'API keys' and 'Connect' in your Stripe account$# Under 'Connect', the Redirect URI should be set to https://YOUR_$# Under 'Webhooks', you should set up a Connect endpoint pointing $# STRIPE_INSTANCE_SECRET_KEY: "sk_test_xxxxxx" # This can be a tes$# STRIPE_INSTANCE_PUBLISHABLE_KEY: "pk_test_xxxx" # This can be a $# STRIPE_CLIENT_ID: "ca_xxxx" # This can be a development ID or a $# STRIPE_ENDPOINT_SECRET: "whsec_xxxx"[34d[K[B[K[B[K[B[K[B[K[B[K[B[K[42d[K[B[K[45d[K[B[K[25;19H[B[A[48d[0;10;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?        Y[0;10m Yes[K[B[0;10;7m N[0;10m No           [0;10;7m^C[0;10m Cancel[K[48;62H[0;10;7mFile Name to Write: application.yml.example                 [B^G[0;10m Get Help     [0;10;7mM-D[0;10m DOS Format  [0;10;7mM-A[0;10m Append	[0;10;7mM-B[0;10m Backup File[B[0;10;7m^C[0;10m Cancel	[0;10;7mM-M[0;10m Mac Format  [0;10;7mM-P[0;10m Prepend[48d[B[39;49m[0;10m[J[1;58H[0;10;7m        [48;24H[0;10m[1K	[0;10;7m[ Wrote 53 lines ][0;10m[K[50;67H[50;1H[2J[?47l8[sysadmin@csc415-server23 config]$ cd ..
+[sysadmin@csc415-server23 openfoodnetwork]$ bub ndle ec xec rails serv
+er
+=> Booting Unicorn
+=> Rails 3.2.22.5 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+/home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/railtie.rb:51:in `block in <class:Railtie>': Value assigned to config.time_zone not recognized.Run "rake -D time" for a list of tasks for finding appropriate time zone names. (RuntimeError)
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `run'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `each'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/sysadmin/assignments/openfoodnetwork/config/environment.rb:5:in `<top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/skylight-1.6.1/lib/skylight/probes.rb:83:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:3:in `block in <main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `initialize'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `new'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `<main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `parse_file'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:200:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:46:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:254:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:70:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `tap'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+[sysadmin@csc415-server23 openfoodnetwork]$ rake -d D time
+[D[2~[A[B[D[C[D[C[D[C[D[Brake time:zones:all
+    Displays all time zones, also available: time:zones:us, time:zones:local -- filter with OFFSET parameter, e.g., OFFSET=-6
+
+[A[sysadmin@csc415-server23 openfoodnetwork]$ ^[[AAAArake -D timebundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [10Prake -D time
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ rake -D timebundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ cd ..[K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ cd ..bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [10Prake -D time
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ rake -D time[8P^[[Arake -D time            time:zones:us
+bash: time:zones:us: command not found...
+[sysadmin@csc415-server23 openfoodnetwork]$ rak  e time:zones:us
+[B[A[D[D[C[D[C[A
+* UTC -10:00 *
+Hawaii
+
+* UTC -09:00 *
+Alaska
+
+* UTC -08:00 *
+Pacific Time (US & Canada)
+
+* UTC -07:00 *
+Arizona
+Mountain Time (US & Canada)
+
+* UTC -06:00 *
+Central Time (US & Canada)
+
+* UTC -05:00 *
+Eastern Time (US & Canada)
+Indiana (East)
+
+[B[sysadmin@csc415-server23 openfoodnetwork]$ rake time:zones:usuu[5Ptime:zones:us[5@rake time:zones:us[5Ptime:zones:us[1Prake -D timebundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ cd ..[K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ cd ..nano application.yml.e
+xample [Ain@csc415-server23 openfoodnetwork]$ ls[K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ls ..nano boot.rb ls[Kcd ..[3Plscd initializers/nano environment.rb [4Pcd initializers/
+bash: cd: initializers/: No such file or directory
+[sysadmin@csc415-server23 openfoodnetwork]$ cd initializers/[Kls
+CONTRIBUTING.md  [0m[01;34mconfig[0m                      [01;34mscript[0m
+Gemfile          config.ru                   setup
+Gemfile.lock     [01;34mdb[0m                          [01;34mspec[0m
+Guardfile        [01;34mdoc[0m                         [01;34mtmp[0m
+LICENCE.txt      knapsack_rspec_report.json  typescript
+Procfile         [01;34mlib[0m                         [01;34mvendor[0m
+README.md        [01;34mlog[0m                         zeus.json
+Rakefile         package.json
+[01;34mapp[0m              [01;34mpublic[0m
+[sysadmin@csc415-server23 openfoodnetwork]$ cd confid g
+[sysadmin@csc415-server23 config]$ ls
+application.rb           environment.rb   routes.rb
+application.yml.example  [0m[01;34menvironments[0m     schedule.rb
+boot.rb                  [01;34minitializers[0m     spree.yml
+database.travis.yml      [01;34mlocales[0m          unicorn.rb
+database.yml             ng-test.conf.js
+[sysadmin@csc415-server23 config]$ cd  nano application.yml.example 
+7[?47h[0;10m[4l[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.3.1     File: application.yml.example                 [B[0;10m# Add application configuration variables here, as shown below.[B#[B# Change this, it has serious security implications.[B# Minimum 30 but usually 128 characters. To obtain run 'rake secre$SECRET_TOKEN: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[9dTIMEZONE: New York[B# Default country for dropdowns etc. See for codes: http://en.wiki$DEFAULT_COUNTRY_CODE: US[B# Locale for translation.[BLOCALE: en[B# For multilingual - ENV doesn't have array so pass it as string w$AVAILABLE_LOCALES: en,es,en-GB[B# Spree zone.[BCHECKOUT_ZONE: United States[B# Find currency codes at http://en.wikipedia.org/wiki/ISO_4217.[BCURRENCY: USD[21d# The whenever gem can set the `MAILTO` variable for our cron jobs.# You can define an email address to notify if any job outputs som$# But you need a working mail server setup so that the message is $# See: config/schedule.rb[B#SCHEDULE_NOTIFICATIONS: admin@example.com[27d# Mail settings[BMAIL_HOST: 'example.com'[BMAIL_DOMAIN: 'example.com'[BMAIL_PORT: 25[BSMTP_USERNAME: 'ofn'[BSMTP_PASSWORD: 'f00d'[34d# SingleSignOn login for Discourse[B#[B# DISCOURSE_SSO_SECRET should be a random string. It must be the s$#DISCOURSE_SSO_SECRET: ""[B#[B# DISCOURSE_URL must be the URL of your Discourse instance.[B#DISCOURSE_URL: "https://noticeboard.openfoodnetwork.org.au"[42d# see: https://developers.google.com/maps/documentation/javascript$# GOOGLE_MAPS_API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[45d# optional, see: https://www.skylight.io/oss[B# SKYLIGHT_AUTHENTICATION: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx$[48;26H[0;10;7m[ Read 53 lines ][B^G[0;10m Get Help[0;10;7m^O[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[3d[B[B[B[B[B[B[B[B[B[B[B[B[A[A[A[11;25H[1;58H[0;10;7mModified[11;24H[0;10m  US[A[9;19H    [48d[K[9;15H   Eastern Time (US & Canada)[48d[0;10;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?        Y[0;10m Yes[K[B[0;10;7m N[0;10m No           [0;10;7m^C[0;10m Cancel[K[48;62H[0;10;7mFile Name to Write: application.yml.example                 [B^G[0;10m Get Help     [0;10;7mM-D[0;10m DOS Format  [0;10;7mM-A[0;10m Append	[0;10;7mM-B[0;10m Backup File[B[0;10;7m^C[0;10m Cancel	[0;10;7mM-M[0;10m Mac Format  [0;10;7mM-P[0;10m Prepend[48d[B[39;49m[0;10m[J[1;58H[0;10;7m        [48;24H[0;10m[1K	[0;10;7m[ Wrote 53 lines ][0;10m[K[50;67H[50;1H[2J[?47l8[sysadmin@csc415-server23 config]$ ls    cd ..
+[sysadmin@csc415-server23 openfoodnetwork]$ b bundle exec rails serv
+er
+[D[A[C[B[A[D[C[B[D[A[D[C[B[D[A[C[B[D[A[C[B[D[A[C[B[D[A[C[B[D=> Booting Unicorn
+=> Rails 3.2.22.5 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+/home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/railtie.rb:51:in `block in <class:Railtie>': Value assigned to config.time_zone not recognized.Run "rake -D time" for a list of tasks for finding appropriate time zone names. (RuntimeError)
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `run'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `each'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/sysadmin/assignments/openfoodnetwork/config/environment.rb:5:in `<top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/skylight-1.6.1/lib/skylight/probes.rb:83:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:3:in `block in <main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `initialize'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `new'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `<main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `parse_file'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:200:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:46:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:254:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:70:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `tap'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+[D[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+err[Aysadmin@csc415-server23 openfoodnetwork]$ [K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+err[Aysadmin@csc415-server23 openfoodnetwork]$ [K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ cd ..[K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ cd ..nano application.yml.e
+xample [Ain@csc415-server23 openfoodnetwork]$ ls[K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ lscd configls[Kcd initializers/rake time:zones:us[5Ptime:zones:us[5@rake time:zones:us
+[B[A
+* UTC -10:00 *
+Hawaii
+
+* UTC -09:00 *
+Alaska
+
+* UTC -08:00 *
+Pacific Time (US & Canada)
+
+* UTC -07:00 *
+Arizona
+Mountain Time (US & Canada)
+
+* UTC -06:00 *
+Central Time (US & Canada)
+
+* UTC -05:00 *
+Eastern Time (US & Canada)
+Indiana (East)
+
+[sysadmin@csc415-server23 openfoodnetwork]$ rake time:zones:uss                  ls
+CONTRIBUTING.md  [0m[01;34mconfig[0m                      [01;34mscript[0m
+Gemfile          config.ru                   setup
+Gemfile.lock     [01;34mdb[0m                          [01;34mspec[0m
+Guardfile        [01;34mdoc[0m                         [01;34mtmp[0m
+LICENCE.txt      knapsack_rspec_report.json  typescript
+Procfile         [01;34mlib[0m                         [01;34mvendor[0m
+README.md        [01;34mlog[0m                         zeus.json
+Rakefile         package.json
+[01;34mapp[0m              [01;34mpublic[0m
+[sysadmin@csc415-server23 openfoodnetwork]$ cd config/
+[sysadmin@csc415-server23 config]$ cd  ls
+application.rb           environment.rb   routes.rb
+application.yml.example  [0m[01;34menvironments[0m     schedule.rb
+boot.rb                  [01;34minitializers[0m     spree.yml
+database.travis.yml      [01;34mlocales[0m          unicorn.rb
+database.yml             ng-test.conf.js
+[sysadmin@csc415-server23 config]$ cd applic         nano application.rn b
+7[?47h[0;10m[4l[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.3.1        File: application.rb                       [B[0;10mrequire_relative 'boot'[5drequire 'rails/all'[Brequire_relative "../lib/open_food_network/i18n_config"[8dif defined?(Bundler)[B  # If you precompile assets before deploying to production, use t$  Bundler.require(*Rails.groups(:assets => %w(development test)))[B  # If you want your assets lazily compiled in production, use thi$  # Bundler.require(:default, :assets, Rails.env)[Bend[15dmodule Openfoodnetwork[B  class Application < Rails::Application[18;5Hconfig.to_prepare do[19;7H# Load application's model / class decorators[20;7HDir.glob(File.join(File.dirname(__FILE__), "../app/**/*_deco$[21;9HRails.configuration.cache_classes ? require(c) : load(c)[22;7Hend[24;7H# Load application's view overrides[25;7HDir.glob(File.join(File.dirname(__FILE__), "../app/overrides$[26;9HRails.configuration.cache_classes ? require(c) : load(c)[27;7Hend[28;5Hend[30;5H# Activate the Skylight agent in staging. You need to provisio$    # SKYLIGHT_AUTHENTICATION env var in your OFN instance for thi$    #[B# Check https://github.com/openfoodfoundation/openfoodnetwork/$    # details[35;5Hconfig.skylight.environments += ["staging"][37;5H# Settings dependent on locale[38;5H#[B# We need to set this config before the promo environment gets$    # after the spree environment gets loaded...[41;5H# This is because Spree uses `Spree::Config` while evaluating $    #[B# https://github.com/spree/spree/blob/2-0-stable/core/app/mode$    #[B# TODO: move back to spree initializer once we upgrade to a mo$    #[13Gof Spree[47;5Hinitializer 'ofn.spree_locale_settings', before: 'spree.promo.$[48;25H[0;10;7m[ Read 148 lines ][B^G[0;10m Get Help[0;10;7m^O[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[3d[B[B[B[B[48d[0;10;7mSearch:                                                            [49;13HY[0;10m First Li[0;10;7m^T[0;10m Go To Li[0;10;7m^W[0;10m Beg of P[0;10;7mM-J[0;10m FullJst[0;10;7mM-B[0;10m Backward[C[0;10;7mC[0;10m Cancel  [0;10;7m^V[0;10m Last Lin[0;10;7m^R[0;10m Replace [0;10;7m^O[0;10m End of P[0;10;7mM-C[0;10m Case Se[0;10;7mM-R[0;10m Regexp [48;9H[0;10;7mc[0;10m[0;10;7mo[0;10m[0;10;7mn[0;10m[0;10;7mf[0;10m[0;10;7mi[0;10m[0;10;7mg[0;10m[0;10;7m.[0;10m[0;10;7mt[0;10m[0;10;7mi[0;10m[0;10;7mm[0;10m[0;10;7me[0;10m[3;6H[1K app.config.spree.payment_methods << Spree::Gateway::StripeCo$    end[B[K[B    # Settings in config/environments/* take precedence over those$    # Application configuration should go into files in config/ini$    # -- all .rb files in that directory are automatically loaded.[B[K[B    # Custom directories with classes and modules you want to be a$    config.autoload_paths += %W([K[B      #{config.root}/app/presenters[K[13;6H[1K #{config.root}/app/jobs[14;5H)[B[K[B    # Only load the plugins named here, in the order given (defaul$    # :all can be used as a placeholder for all plugins not explic$    # config.plugins = [ :exception_notification, :ssl_requirement$[K[B    # Activate observers that should always be running.[K[21;5H# config.active_record.observers = :cacher, :garbage_collector$[K[B    # Set Time.zone default to the specified zone and make Active $    # Run "rake -D time" for a list of tasks for finding time zone$    config.time_zone = ENV["TIMEZONE"][K[B[K[B    # The default locale is :en and all translations from config/l$    # config.i18n.load_path += Dir[Rails.root.join('my', 'locales'$    config.i18n.default_locale = OpenFoodNetwork::I18nConfig.defau$    config.i18n.available_locales = OpenFoodNetwork::I18nConfig.av[31;5HI18n.locale = config.i18n.locale = config.i18n.default_locale  [K[33;7HSetting this to true causes a performance regression in Rail[34;7HWhen we're on a version with the fix below, we can set it to$    # https://github.com/svenfuchs/i18n/issues/230[36;5HI18n.config.enforce_available_locales = false[B[K[38;7HConfigure the default encoding used in templates for Ruby 1.$    config.encoding = "utf-8"[K[B[K[41;7HConfigure sensitive parameters which will be filtered from t[42;5Hconfig.filter_parameters += [:password][B[K[44;7HEnable the asset pipeline[45;5Hconfig.assets.enabled = true[K[B[K[B    # Version of your assets, change this if you want to expire al[B[K[49;13H[0;10;7mO[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos  [C[0;10;7mX[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[25;5Hcon	ig.time	zone =	NV["TIM	ZONE"][1;58H[0;10;7mModified[25;38H[0;10m ][48d[0;10;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?        Y[0;10m Yes[K[B[0;10;7m N[0;10m No           [0;10;7m^C[0;10m Cancel[K[48;62H[B[J[50;67H[50;1H[2J[?47l8[sysadmin@csc415-server23 config]$ nano application.rbls[Knano application.rb
+7[?47h[0;10m[4l[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.3.1        File: application.rb                       [B[0;10mrequire_relative 'boot'[5drequire 'rails/all'[Brequire_relative "../lib/open_food_network/i18n_config"[8dif defined?(Bundler)[B  # If you precompile assets before deploying to production, use t$  Bundler.require(*Rails.groups(:assets => %w(development test)))[B  # If you want your assets lazily compiled in production, use thi$  # Bundler.require(:default, :assets, Rails.env)[Bend[15dmodule Openfoodnetwork[B  class Application < Rails::Application[18;5Hconfig.to_prepare do[19;7H# Load application's model / class decorators[20;7HDir.glob(File.join(File.dirname(__FILE__), "../app/**/*_deco$[21;9HRails.configuration.cache_classes ? require(c) : load(c)[22;7Hend[24;7H# Load application's view overrides[25;7HDir.glob(File.join(File.dirname(__FILE__), "../app/overrides$[26;9HRails.configuration.cache_classes ? require(c) : load(c)[27;7Hend[28;5Hend[30;5H# Activate the Skylight agent in staging. You need to provisio$    # SKYLIGHT_AUTHENTICATION env var in your OFN instance for thi$    #[B# Check https://github.com/openfoodfoundation/openfoodnetwork/$    # details[35;5Hconfig.skylight.environments += ["staging"][37;5H# Settings dependent on locale[38;5H#[B# We need to set this config before the promo environment gets$    # after the spree environment gets loaded...[41;5H# This is because Spree uses `Spree::Config` while evaluating $    #[B# https://github.com/spree/spree/blob/2-0-stable/core/app/mode$    #[B# TODO: move back to spree initializer once we upgrade to a mo$    #[13Gof Spree[47;5Hinitializer 'ofn.spree_locale_settings', before: 'spree.promo.$[48;25H[0;10;7m[ Read 148 lines ][B^G[0;10m Get Help[0;10;7m^O[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[3d[48d[0;10;7mSearch:                                                            [49;13HY[0;10m First Li[0;10;7m^T[0;10m Go To Li[0;10;7m^W[0;10m Beg of P[0;10;7mM-J[0;10m FullJst[0;10;7mM-B[0;10m Backward[C[0;10;7mC[0;10m Cancel  [0;10;7m^V[0;10m Last Lin[0;10;7m^R[0;10m Replace [0;10;7m^O[0;10m End of P[0;10;7mM-C[0;10m Case Se[0;10;7mM-R[0;10m Regexp [48;9H[0;10;7mc[0;10m[0;10;7mo[0;10m[0;10;7mn[0;10m[0;10;7mf[0;10m[0;10;7mi[0;10m[0;10;7mg[0;10m[0;10;7m.[0;10m[0;10;7mt[0;10m[0;10;7mi[0;10m[0;10;7mm[0;10m[0;10;7me[0;10m[3;6H[1K app.config.spree.payment_methods << Spree::Gateway::StripeCo$    end[B[K[B    # Settings in config/environments/* take precedence over those$    # Application configuration should go into files in config/ini$    # -- all .rb files in that directory are automatically loaded.[B[K[B    # Custom directories with classes and modules you want to be a$    config.autoload_paths += %W([K[B      #{config.root}/app/presenters[K[13;6H[1K #{config.root}/app/jobs[14;5H)[B[K[B    # Only load the plugins named here, in the order given (defaul$    # :all can be used as a placeholder for all plugins not explic$    # config.plugins = [ :exception_notification, :ssl_requirement$[K[B    # Activate observers that should always be running.[K[21;5H# config.active_record.observers = :cacher, :garbage_collector$[K[B    # Set Time.zone default to the specified zone and make Active $    # Run "rake -D time" for a list of tasks for finding time zone$    config.time_zone = ENV["TIMEZONE"][K[B[K[B    # The default locale is :en and all translations from config/l$    # config.i18n.load_path += Dir[Rails.root.join('my', 'locales'$    config.i18n.default_locale = OpenFoodNetwork::I18nConfig.defau$    config.i18n.available_locales = OpenFoodNetwork::I18nConfig.av[31;5HI18n.locale = config.i18n.locale = config.i18n.default_locale  [K[33;7HSetting this to true causes a performance regression in Rail[34;7HWhen we're on a version with the fix below, we can set it to$    # https://github.com/svenfuchs/i18n/issues/230[36;5HI18n.config.enforce_available_locales = false[B[K[38;7HConfigure the default encoding used in templates for Ruby 1.$    config.encoding = "utf-8"[K[B[K[41;7HConfigure sensitive parameters which will be filtered from t[42;5Hconfig.filter_parameters += [:password][B[K[44;7HEnable the asset pipeline[45;5Hconfig.assets.enabled = true[K[B[K[B    # Version of your assets, change this if you want to expire al[B[K[49;13H[0;10;7mO[0;10m WriteOut[0;10;7m^R[0;10m Read Fil[0;10;7m^Y[0;10m Prev Pag[0;10;7m^K[0;10m Cut Text[0;10;7m^C[0;10m Cur Pos  [C[0;10;7mX[0;10m Exit    [0;10;7m^J[0;10m Justify [0;10;7m^W[0;10m Where Is[0;10;7m^V[0;10m Next Pag[0;10;7m^U[0;10m UnCut Te[0;10;7m^T[0;10m To Spell[25;5H con	ig.time	zone = 	NV["TIM	ZONE"][1;58H[0;10;7mModified[25;38H[0;10m               'Eastern Time (US & Canada)'[48d[0;10;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?        Y[0;10m Yes[K[B[0;10;7m N[0;10m No           [0;10;7m^C[0;10m Cancel[K[48;62H[0;10;7mFile Name to Write: application.rb                          [B^G[0;10m Get Help     [0;10;7mM-D[0;10m DOS Format  [0;10;7mM-A[0;10m Append	[0;10;7mM-B[0;10m Backup File[B[0;10;7m^C[0;10m Cancel	[0;10;7mM-M[0;10m Mac Format  [0;10;7mM-P[0;10m Prepend[48;35H[B[39;49m[0;10m[J[1;58H[0;10;7m        [48;24H[0;10m[1K	[0;10;7m[ Wrote 148 lines ][0;10m[K[50;67H[50;1H[2J[?47l8[sysadmin@csc415-server23 config]$ cd ..
+[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er
+[D[C[D[A[B=> Booting Unicorn
+=> Rails 3.2.22.5 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[SKYLIGHT] [1.6.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+Exiting
+/home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize': could not connect to server: Connection refused (PG::Error)
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+	from /home/sysadmin/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+	from /home/sysadmin/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/model_schema.rb:224:in `table_exists?'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:89:in `should_persist?'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:73:in `persist'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:21:in `set'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/preferable_class_methods.rb:27:in `block in preference'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/preferable.rb:41:in `set_preference'
+	from /home/sysadmin/assignments/openfoodnetwork/config/application.rb:46:in `block in <class:Application>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `run'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `each'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/sysadmin/assignments/openfoodnetwork/config/environment.rb:5:in `<top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/skylight-1.6.1/lib/skylight/probes.rb:83:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:3:in `block in <main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `initialize'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `new'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `<main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `parse_file'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:200:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:46:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:254:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:70:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `tap'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ postgres -D /usr/local
+/var/postgres
+postgres cannot access the server configuration file "/usr/local/var/postgres/postgresql.conf": No such file or directory
+[sysadmin@csc415-server23 openfoodnetwork]$ sudo server   c vice postgresl
+[A[sysadmin@csc415-server23 openfoodnetwork]$ sudo service postgres[K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ sudo service postgresq
+l start
+[sudo] password for sysadmin: 
+Redirecting to /bin/systemctl start postgresql.service
+Error: Too many open files
+[sysadmin@csc415-server23 openfoodnetwork]$ lsof
+COMMAND     PID   TID           USER   FD      TYPE DEVICE SIZE/OFF       NODE NAME
+systemd       1                 root  cwd   unknown                            /proc/1/cwd (readlink: Permission denied)
+systemd       1                 root  rtd   unknown                            /proc/1/root (readlink: Permission denied)
+systemd       1                 root  txt   unknown                            /proc/1/exe (readlink: Permission denied)
+systemd       1                 root NOFD                                      /proc/1/fd (opendir: Permission denied)
+systemd-j    48                 root  cwd   unknown                            /proc/48/cwd (readlink: Permission denied)
+systemd-j    48                 root  rtd   unknown                            /proc/48/root (readlink: Permission denied)
+systemd-j    48                 root  txt   unknown                            /proc/48/exe (readlink: Permission denied)
+systemd-j    48                 root NOFD                                      /proc/48/fd (opendir: Permission denied)
+lvmetad      63                 root  cwd   unknown                            /proc/63/cwd (readlink: Permission denied)
+lvmetad      63                 root  rtd   unknown                            /proc/63/root (readlink: Permission denied)
+lvmetad      63                 root  txt   unknown                            /proc/63/exe (readlink: Permission denied)
+lvmetad      63                 root NOFD                                      /proc/63/fd (opendir: Permission denied)
+systemd-l    75                 root  cwd   unknown                            /proc/75/cwd (readlink: Permission denied)
+systemd-l    75                 root  rtd   unknown                            /proc/75/root (readlink: Permission denied)
+systemd-l    75                 root  txt   unknown                            /proc/75/exe (readlink: Permission denied)
+systemd-l    75                 root NOFD                                      /proc/75/fd (opendir: Permission denied)
+alsactl      76                 root  cwd   unknown                            /proc/76/cwd (readlink: Permission denied)
+alsactl      76                 root  rtd   unknown                            /proc/76/root (readlink: Permission denied)
+alsactl      76                 root  txt   unknown                            /proc/76/exe (readlink: Permission denied)
+alsactl      76                 root NOFD                                      /proc/76/fd (opendir: Permission denied)
+accounts-    77                 root  cwd   unknown                            /proc/77/cwd (readlink: Permission denied)
+accounts-    77                 root  rtd   unknown                            /proc/77/root (readlink: Permission denied)
+accounts-    77                 root  txt   unknown                            /proc/77/exe (readlink: Permission denied)
+accounts-    77                 root NOFD                                      /proc/77/fd (opendir: Permission denied)
+gmain        77   105           root  cwd   unknown                            /proc/77/task/105/cwd (readlink: Permission denied)
+gmain        77   105           root  rtd   unknown                            /proc/77/task/105/root (readlink: Permission denied)
+gmain        77   105           root  txt   unknown                            /proc/77/task/105/exe (readlink: Permission denied)
+gmain        77   105           root NOFD                                      /proc/77/task/105/fd (opendir: Permission denied)
+gdbus        77   120           root  cwd   unknown                            /proc/77/task/120/cwd (readlink: Permission denied)
+gdbus        77   120           root  rtd   unknown                            /proc/77/task/120/root (readlink: Permission denied)
+gdbus        77   120           root  txt   unknown                            /proc/77/task/120/exe (readlink: Permission denied)
+gdbus        77   120           root NOFD                                      /proc/77/task/120/fd (opendir: Permission denied)
+lsmd         78       libstoragemgmt  cwd   unknown                            /proc/78/cwd (readlink: Permission denied)
+lsmd         78       libstoragemgmt  rtd   unknown                            /proc/78/root (readlink: Permission denied)
+lsmd         78       libstoragemgmt  txt   unknown                            /proc/78/exe (readlink: Permission denied)
+lsmd         78       libstoragemgmt NOFD                                      /proc/78/fd (opendir: Permission denied)
+abrtd        87                 root  cwd   unknown                            /proc/87/cwd (readlink: Permission denied)
+abrtd        87                 root  rtd   unknown                            /proc/87/root (readlink: Permission denied)
+abrtd        87                 root  txt   unknown                            /proc/87/exe (readlink: Permission denied)
+abrtd        87                 root NOFD                                      /proc/87/fd (opendir: Permission denied)
+rngd         88                 root  cwd   unknown                            /proc/88/cwd (readlink: Permission denied)
+rngd         88                 root  rtd   unknown                            /proc/88/root (readlink: Permission denied)
+rngd         88                 root  txt   unknown                            /proc/88/exe (readlink: Permission denied)
+rngd         88                 root NOFD                                      /proc/88/fd (opendir: Permission denied)
+smartd       90                 root  cwd   unknown                            /proc/90/cwd (readlink: Permission denied)
+smartd       90                 root  rtd   unknown                            /proc/90/root (readlink: Permission denied)
+smartd       90                 root  txt   unknown                            /proc/90/exe (readlink: Permission denied)
+smartd       90                 root NOFD                                      /proc/90/fd (opendir: Permission denied)
+polkitd      91              polkitd  cwd   unknown                            /proc/91/cwd (readlink: Permission denied)
+polkitd      91              polkitd  rtd   unknown                            /proc/91/root (readlink: Permission denied)
+polkitd      91              polkitd  txt   unknown                            /proc/91/exe (readlink: Permission denied)
+polkitd      91              polkitd NOFD                                      /proc/91/fd (opendir: Permission denied)
+gmain        91   135        polkitd  cwd   unknown                            /proc/91/task/135/cwd (readlink: Permission denied)
+gmain        91   135        polkitd  rtd   unknown                            /proc/91/task/135/root (readlink: Permission denied)
+gmain        91   135        polkitd  txt   unknown                            /proc/91/task/135/exe (readlink: Permission denied)
+gmain        91   135        polkitd NOFD                                      /proc/91/task/135/fd (opendir: Permission denied)
+gdbus        91   136        polkitd  cwd   unknown                            /proc/91/task/136/cwd (readlink: Permission denied)
+gdbus        91   136        polkitd  rtd   unknown                            /proc/91/task/136/root (readlink: Permission denied)
+gdbus        91   136        polkitd  txt   unknown                            /proc/91/task/136/exe (readlink: Permission denied)
+gdbus        91   136        polkitd NOFD                                      /proc/91/task/136/fd (opendir: Permission denied)
+JS           91   137        polkitd  cwd   unknown                            /proc/91/task/137/cwd (readlink: Permission denied)
+JS           91   137        polkitd  rtd   unknown                            /proc/91/task/137/root (readlink: Permission denied)
+JS           91   137        polkitd  txt   unknown                            /proc/91/task/137/exe (readlink: Permission denied)
+JS           91   137        polkitd NOFD                                      /proc/91/task/137/fd (opendir: Permission denied)
+JS           91   146        polkitd  cwd   unknown                            /proc/91/task/146/cwd (readlink: Permission denied)
+JS           91   146        polkitd  rtd   unknown                            /proc/91/task/146/root (readlink: Permission denied)
+JS           91   146        polkitd  txt   unknown                            /proc/91/task/146/exe (readlink: Permission denied)
+JS           91   146        polkitd NOFD                                      /proc/91/task/146/fd (opendir: Permission denied)
+polkitd      91   147        polkitd  cwd   unknown                            /proc/91/task/147/cwd (readlink: Permission denied)
+polkitd      91   147        polkitd  rtd   unknown                            /proc/91/task/147/root (readlink: Permission denied)
+polkitd      91   147        polkitd  txt   unknown                            /proc/91/task/147/exe (readlink: Permission denied)
+polkitd      91   147        polkitd NOFD                                      /proc/91/task/147/fd (opendir: Permission denied)
+abrt-watc    94                 root  cwd   unknown                            /proc/94/cwd (readlink: Permission denied)
+abrt-watc    94                 root  rtd   unknown                            /proc/94/root (readlink: Permission denied)
+abrt-watc    94                 root  txt   unknown                            /proc/94/exe (readlink: Permission denied)
+abrt-watc    94                 root NOFD                                      /proc/94/fd (opendir: Permission denied)
+ModemMana    96                 root  cwd   unknown                            /proc/96/cwd (readlink: Permission denied)
+ModemMana    96                 root  rtd   unknown                            /proc/96/root (readlink: Permission denied)
+ModemMana    96                 root  txt   unknown                            /proc/96/exe (readlink: Permission denied)
+ModemMana    96                 root NOFD                                      /proc/96/fd (opendir: Permission denied)
+gmain        96   107           root  cwd   unknown                            /proc/96/task/107/cwd (readlink: Permission denied)
+gmain        96   107           root  rtd   unknown                            /proc/96/task/107/root (readlink: Permission denied)
+gmain        96   107           root  txt   unknown                            /proc/96/task/107/exe (readlink: Permission denied)
+gmain        96   107           root NOFD                                      /proc/96/task/107/fd (opendir: Permission denied)
+gdbus        96   121           root  cwd   unknown                            /proc/96/task/121/cwd (readlink: Permission denied)
+gdbus        96   121           root  rtd   unknown                            /proc/96/task/121/root (readlink: Permission denied)
+gdbus        96   121           root  txt   unknown                            /proc/96/task/121/exe (readlink: Permission denied)
+gdbus        96   121           root NOFD                                      /proc/96/task/121/fd (opendir: Permission denied)
+irqbalanc   100                 root  cwd   unknown                            /proc/100/cwd (readlink: Permission denied)
+irqbalanc   100                 root  rtd   unknown                            /proc/100/root (readlink: Permission denied)
+irqbalanc   100                 root  txt   unknown                            /proc/100/exe (readlink: Permission denied)
+irqbalanc   100                 root NOFD                                      /proc/100/fd (opendir: Permission denied)
+dbus-daem   101                 dbus  cwd   unknown                            /proc/101/cwd (readlink: Permission denied)
+dbus-daem   101                 dbus  rtd   unknown                            /proc/101/root (readlink: Permission denied)
+dbus-daem   101                 dbus  txt   unknown                            /proc/101/exe (readlink: Permission denied)
+dbus-daem   101                 dbus NOFD                                      /proc/101/fd (opendir: Permission denied)
+saslauthd   110                 root  cwd   unknown                            /proc/110/cwd (readlink: Permission denied)
+saslauthd   110                 root  rtd   unknown                            /proc/110/root (readlink: Permission denied)
+saslauthd   110                 root  txt   unknown                            /proc/110/exe (readlink: Permission denied)
+saslauthd   110                 root NOFD                                      /proc/110/fd (opendir: Permission denied)
+saslauthd   111                 root  cwd   unknown                            /proc/111/cwd (readlink: Permission denied)
+saslauthd   111                 root  rtd   unknown                            /proc/111/root (readlink: Permission denied)
+saslauthd   111                 root  txt   unknown                            /proc/111/exe (readlink: Permission denied)
+saslauthd   111                 root NOFD                                      /proc/111/fd (opendir: Permission denied)
+rsyslogd    122                 root  cwd   unknown                            /proc/122/cwd (readlink: Permission denied)
+rsyslogd    122                 root  rtd   unknown                            /proc/122/root (readlink: Permission denied)
+rsyslogd    122                 root  txt   unknown                            /proc/122/exe (readlink: Permission denied)
+rsyslogd    122                 root NOFD                                      /proc/122/fd (opendir: Permission denied)
+in:imjour   122   145           root  cwd   unknown                            /proc/122/task/145/cwd (readlink: Permission denied)
+in:imjour   122   145           root  rtd   unknown                            /proc/122/task/145/root (readlink: Permission denied)
+in:imjour   122   145           root  txt   unknown                            /proc/122/task/145/exe (readlink: Permission denied)
+in:imjour   122   145           root NOFD                                      /proc/122/task/145/fd (opendir: Permission denied)
+rs:main     122   159           root  cwd   unknown                            /proc/122/task/159/cwd (readlink: Permission denied)
+rs:main     122   159           root  rtd   unknown                            /proc/122/task/159/root (readlink: Permission denied)
+rs:main     122   159           root  txt   unknown                            /proc/122/task/159/exe (readlink: Permission denied)
+rs:main     122   159           root NOFD                                      /proc/122/task/159/fd (opendir: Permission denied)
+abrt-watc   123                 root  cwd   unknown                            /proc/123/cwd (readlink: Permission denied)
+abrt-watc   123                 root  rtd   unknown                            /proc/123/root (readlink: Permission denied)
+abrt-watc   123                 root  txt   unknown                            /proc/123/exe (readlink: Permission denied)
+abrt-watc   123                 root NOFD                                      /proc/123/fd (opendir: Permission denied)
+NetworkMa   129                 root  cwd   unknown                            /proc/129/cwd (readlink: Permission denied)
+NetworkMa   129                 root  rtd   unknown                            /proc/129/root (readlink: Permission denied)
+NetworkMa   129                 root  txt   unknown                            /proc/129/exe (readlink: Permission denied)
+NetworkMa   129                 root NOFD                                      /proc/129/fd (opendir: Permission denied)
+gmain       129   148           root  cwd   unknown                            /proc/129/task/148/cwd (readlink: Permission denied)
+gmain       129   148           root  rtd   unknown                            /proc/129/task/148/root (readlink: Permission denied)
+gmain       129   148           root  txt   unknown                            /proc/129/task/148/exe (readlink: Permission denied)
+gmain       129   148           root NOFD                                      /proc/129/task/148/fd (opendir: Permission denied)
+gdbus       129   151           root  cwd   unknown                            /proc/129/task/151/cwd (readlink: Permission denied)
+gdbus       129   151           root  rtd   unknown                            /proc/129/task/151/root (readlink: Permission denied)
+gdbus       129   151           root  txt   unknown                            /proc/129/task/151/exe (readlink: Permission denied)
+gdbus       129   151           root NOFD                                      /proc/129/task/151/fd (opendir: Permission denied)
+dhclient    198                 root  cwd   unknown                            /proc/198/cwd (readlink: Permission denied)
+dhclient    198                 root  rtd   unknown                            /proc/198/root (readlink: Permission denied)
+dhclient    198                 root  txt   unknown                            /proc/198/exe (readlink: Permission denied)
+dhclient    198                 root NOFD                                      /proc/198/fd (opendir: Permission denied)
+cupsd       385                 root  cwd   unknown                            /proc/385/cwd (readlink: Permission denied)
+cupsd       385                 root  rtd   unknown                            /proc/385/root (readlink: Permission denied)
+cupsd       385                 root  txt   unknown                            /proc/385/exe (readlink: Permission denied)
+cupsd       385                 root NOFD                                      /proc/385/fd (opendir: Permission denied)
+tuned       386                 root  cwd   unknown                            /proc/386/cwd (readlink: Permission denied)
+tuned       386                 root  rtd   unknown                            /proc/386/root (readlink: Permission denied)
+tuned       386                 root  txt   unknown                            /proc/386/exe (readlink: Permission denied)
+tuned       386                 root NOFD                                      /proc/386/fd (opendir: Permission denied)
+gmain       386   479           root  cwd   unknown                            /proc/386/task/479/cwd (readlink: Permission denied)
+gmain       386   479           root  rtd   unknown                            /proc/386/task/479/root (readlink: Permission denied)
+gmain       386   479           root  txt   unknown                            /proc/386/task/479/exe (readlink: Permission denied)
+gmain       386   479           root NOFD                                      /proc/386/task/479/fd (opendir: Permission denied)
+tuned       386   480           root  cwd   unknown                            /proc/386/task/480/cwd (readlink: Permission denied)
+tuned       386   480           root  rtd   unknown                            /proc/386/task/480/root (readlink: Permission denied)
+tuned       386   480           root  txt   unknown                            /proc/386/task/480/exe (readlink: Permission denied)
+tuned       386   480           root NOFD                                      /proc/386/task/480/fd (opendir: Permission denied)
+tuned       386   481           root  cwd   unknown                            /proc/386/task/481/cwd (readlink: Permission denied)
+tuned       386   481           root  rtd   unknown                            /proc/386/task/481/root (readlink: Permission denied)
+tuned       386   481           root  txt   unknown                            /proc/386/task/481/exe (readlink: Permission denied)
+tuned       386   481           root NOFD                                      /proc/386/task/481/fd (opendir: Permission denied)
+tuned       386   482           root  cwd   unknown                            /proc/386/task/482/cwd (readlink: Permission denied)
+tuned       386   482           root  rtd   unknown                            /proc/386/task/482/root (readlink: Permission denied)
+tuned       386   482           root  txt   unknown                            /proc/386/task/482/exe (readlink: Permission denied)
+tuned       386   482           root NOFD                                      /proc/386/task/482/fd (opendir: Permission denied)
+sshd        387                 root  cwd   unknown                            /proc/387/cwd (readlink: Permission denied)
+sshd        387                 root  rtd   unknown                            /proc/387/root (readlink: Permission denied)
+sshd        387                 root  txt   unknown                            /proc/387/exe (readlink: Permission denied)
+sshd        387                 root NOFD                                      /proc/387/fd (opendir: Permission denied)
+xinetd      407                 root  cwd   unknown                            /proc/407/cwd (readlink: Permission denied)
+xinetd      407                 root  rtd   unknown                            /proc/407/root (readlink: Permission denied)
+xinetd      407                 root  txt   unknown                            /proc/407/exe (readlink: Permission denied)
+xinetd      407                 root NOFD                                      /proc/407/fd (opendir: Permission denied)
+httpd       416                 root  cwd   unknown                            /proc/416/cwd (readlink: Permission denied)
+httpd       416                 root  rtd   unknown                            /proc/416/root (readlink: Permission denied)
+httpd       416                 root  txt   unknown                            /proc/416/exe (readlink: Permission denied)
+httpd       416                 root NOFD                                      /proc/416/fd (opendir: Permission denied)
+agetty      419                 root  cwd   unknown                            /proc/419/cwd (readlink: Permission denied)
+agetty      419                 root  rtd   unknown                            /proc/419/root (readlink: Permission denied)
+agetty      419                 root  txt   unknown                            /proc/419/exe (readlink: Permission denied)
+agetty      419                 root NOFD                                      /proc/419/fd (opendir: Permission denied)
+agetty      420                 root  cwd   unknown                            /proc/420/cwd (readlink: Permission denied)
+agetty      420                 root  rtd   unknown                            /proc/420/root (readlink: Permission denied)
+agetty      420                 root  txt   unknown                            /proc/420/exe (readlink: Permission denied)
+agetty      420                 root NOFD                                      /proc/420/fd (opendir: Permission denied)
+gdm         421                 root  cwd   unknown                            /proc/421/cwd (readlink: Permission denied)
+gdm         421                 root  rtd   unknown                            /proc/421/root (readlink: Permission denied)
+gdm         421                 root  txt   unknown                            /proc/421/exe (readlink: Permission denied)
+gdm         421                 root NOFD                                      /proc/421/fd (opendir: Permission denied)
+gmain       421   429           root  cwd   unknown                            /proc/421/task/429/cwd (readlink: Permission denied)
+gmain       421   429           root  rtd   unknown                            /proc/421/task/429/root (readlink: Permission denied)
+gmain       421   429           root  txt   unknown                            /proc/421/task/429/exe (readlink: Permission denied)
+gmain       421   429           root NOFD                                      /proc/421/task/429/fd (opendir: Permission denied)
+gdbus       421   430           root  cwd   unknown                            /proc/421/task/430/cwd (readlink: Permission denied)
+gdbus       421   430           root  rtd   unknown                            /proc/421/task/430/root (readlink: Permission denied)
+gdbus       421   430           root  txt   unknown                            /proc/421/task/430/exe (readlink: Permission denied)
+gdbus       421   430           root NOFD                                      /proc/421/task/430/fd (opendir: Permission denied)
+gdm         421   434           root  cwd   unknown                            /proc/421/task/434/cwd (readlink: Permission denied)
+gdm         421   434           root  rtd   unknown                            /proc/421/task/434/root (readlink: Permission denied)
+gdm         421   434           root  txt   unknown                            /proc/421/task/434/exe (readlink: Permission denied)
+gdm         421   434           root NOFD                                      /proc/421/task/434/fd (opendir: Permission denied)
+agetty      422                 root  cwd   unknown                            /proc/422/cwd (readlink: Permission denied)
+agetty      422                 root  rtd   unknown                            /proc/422/root (readlink: Permission denied)
+agetty      422                 root  txt   unknown                            /proc/422/exe (readlink: Permission denied)
+agetty      422                 root NOFD                                      /proc/422/fd (opendir: Permission denied)
+atd         423                 root  cwd   unknown                            /proc/423/cwd (readlink: Permission denied)
+atd         423                 root  rtd   unknown                            /proc/423/root (readlink: Permission denied)
+atd         423                 root  txt   unknown                            /proc/423/exe (readlink: Permission denied)
+atd         423                 root NOFD                                      /proc/423/fd (opendir: Permission denied)
+crond       425                 root  cwd   unknown                            /proc/425/cwd (readlink: Permission denied)
+crond       425                 root  rtd   unknown                            /proc/425/root (readlink: Permission denied)
+crond       425                 root  txt   unknown                            /proc/425/exe (readlink: Permission denied)
+crond       425                 root NOFD                                      /proc/425/fd (opendir: Permission denied)
+sendmail    437                 root  cwd   unknown                            /proc/437/cwd (readlink: Permission denied)
+sendmail    437                 root  rtd   unknown                            /proc/437/root (readlink: Permission denied)
+sendmail    437                 root  txt   unknown                            /proc/437/exe (readlink: Permission denied)
+sendmail    437                 root NOFD                                      /proc/437/fd (opendir: Permission denied)
+sendmail    444                smmsp  cwd   unknown                            /proc/444/cwd (readlink: Permission denied)
+sendmail    444                smmsp  rtd   unknown                            /proc/444/root (readlink: Permission denied)
+sendmail    444                smmsp  txt   unknown                            /proc/444/exe (readlink: Permission denied)
+sendmail    444                smmsp NOFD                                      /proc/444/fd (opendir: Permission denied)
+httpd      5853               apache  cwd   unknown                            /proc/5853/cwd (readlink: Permission denied)
+httpd      5853               apache  rtd   unknown                            /proc/5853/root (readlink: Permission denied)
+httpd      5853               apache  txt   unknown                            /proc/5853/exe (readlink: Permission denied)
+httpd      5853               apache NOFD                                      /proc/5853/fd (opendir: Permission denied)
+script    10995             sysadmin  cwd       DIR   7,22     4096     491522 /home/sysadmin/assignments/openfoodnetwork
+script    10995             sysadmin  rtd       DIR   7,22     4096          2 /
+script    10995             sysadmin  txt       REG   7,22    20080     305580 /usr/bin/script
+script    10995             sysadmin  mem       REG   7,22    62184     304962 /usr/lib64/libnss_files-2.17.so
+script    10995             sysadmin  mem       REG   7,22  2127336     304471 /usr/lib64/libc-2.17.so
+script    10995             sysadmin  mem       REG   7,22    11384     304404 /usr/lib64/libutempter.so.1.1.6
+script    10995             sysadmin  mem       REG   7,22    14872     305121 /usr/lib64/libutil-2.17.so
+script    10995             sysadmin  mem       REG   7,22   164112     302572 /usr/lib64/ld-2.17.so
+script    10995             sysadmin    0u      CHR  136,3      0t0          6 /dev/pts/3
+script    10995             sysadmin    1u      CHR  136,3      0t0          6 /dev/pts/3
+script    10995             sysadmin    2u      CHR  136,3      0t0          6 /dev/pts/3
+script    10995             sysadmin    4u      CHR    5,2      0t0          2 /dev/ptmx
+script    10995             sysadmin    5u      CHR  136,4      0t0          7 /dev/pts/4
+script    10995             sysadmin    6u      CHR  136,3      0t0          6 /dev/pts/3
+script    10997             sysadmin  cwd       DIR   7,22     4096     491522 /home/sysadmin/assignments/openfoodnetwork
+script    10997             sysadmin  rtd       DIR   7,22     4096          2 /
+script    10997             sysadmin  txt       REG   7,22    20080     305580 /usr/bin/script
+script    10997             sysadmin  mem       REG   7,22    62184     304962 /usr/lib64/libnss_files-2.17.so
+script    10997             sysadmin  mem       REG   7,22  2127336     304471 /usr/lib64/libc-2.17.so
+script    10997             sysadmin  mem       REG   7,22    11384     304404 /usr/lib64/libutempter.so.1.1.6
+script    10997             sysadmin  mem       REG   7,22    14872     305121 /usr/lib64/libutil-2.17.so
+script    10997             sysadmin  mem       REG   7,22   164112     302572 /usr/lib64/ld-2.17.so
+script    10997             sysadmin    1u      CHR  136,3      0t0          6 /dev/pts/3
+script    10997             sysadmin    2u      CHR  136,3      0t0          6 /dev/pts/3
+script    10997             sysadmin    3w      REG   7,22    49152     491933 /home/sysadmin/assignments/openfoodnetwork/setup
+script    10997             sysadmin    4u      CHR    5,2      0t0          2 /dev/ptmx
+script    10997             sysadmin    6u      CHR  136,3      0t0          6 /dev/pts/3
+bash      10998             sysadmin  cwd       DIR   7,22     4096     491522 /home/sysadmin/assignments/openfoodnetwork
+bash      10998             sysadmin  rtd       DIR   7,22     4096          2 /
+bash      10998             sysadmin  txt       REG   7,22   960608     306720 /usr/bin/bash
+bash      10998             sysadmin  mem       REG   7,22    62184     304962 /usr/lib64/libnss_files-2.17.so
+bash      10998             sysadmin  mem       REG   7,22  2127336     304471 /usr/lib64/libc-2.17.so
+bash      10998             sysadmin  mem       REG   7,22    19776     303070 /usr/lib64/libdl-2.17.so
+bash      10998             sysadmin  mem       REG   7,22   174576     301992 /usr/lib64/libtinfo.so.5.9
+bash      10998             sysadmin  mem       REG   7,22   164112     302572 /usr/lib64/ld-2.17.so
+bash      10998             sysadmin    0u      CHR  136,4      0t0          7 /dev/pts/4
+bash      10998             sysadmin    1u      CHR  136,4      0t0          7 /dev/pts/4
+bash      10998             sysadmin    2u      CHR  136,4      0t0          7 /dev/pts/4
+bash      10998             sysadmin    6u      CHR  136,3      0t0          6 /dev/pts/3
+bash      10998             sysadmin  255u      CHR  136,4      0t0          7 /dev/pts/4
+script    11222             sysadmin  cwd       DIR   7,22     4096     491522 /home/sysadmin/assignments/openfoodnetwork
+script    11222             sysadmin  rtd       DIR   7,22     4096          2 /
+script    11222             sysadmin  txt       REG   7,22    20080     305580 /usr/bin/script
+script    11222             sysadmin  mem       REG   7,22    62184     304962 /usr/lib64/libnss_files-2.17.so
+script    11222             sysadmin  mem       REG   7,22  2127336     304471 /usr/lib64/libc-2.17.so
+script    11222             sysadmin  mem       REG   7,22    11384     304404 /usr/lib64/libutempter.so.1.1.6
+script    11222             sysadmin  mem       REG   7,22    14872     305121 /usr/lib64/libutil-2.17.so
+script    11222             sysadmin  mem       REG   7,22   164112     302572 /usr/lib64/ld-2.17.so
+script    11222             sysadmin    0u      CHR  136,4      0t0          7 /dev/pts/4
+script    11222             sysadmin    1u      CHR  136,4      0t0          7 /dev/pts/4
+script    11222             sysadmin    2u      CHR  136,4      0t0          7 /dev/pts/4
+script    11222             sysadmin    4u      CHR    5,2      0t0          2 /dev/ptmx
+script    11222             sysadmin    5u      CHR  136,5      0t0          8 /dev/pts/5
+script    11222             sysadmin    6u      CHR  136,3      0t0          6 /dev/pts/3
+script    11224             sysadmin  cwd       DIR   7,22     4096     491522 /home/sysadmin/assignments/openfoodnetwork
+script    11224             sysadmin  rtd       DIR   7,22     4096          2 /
+script    11224             sysadmin  txt       REG   7,22    20080     305580 /usr/bin/script
+script    11224             sysadmin  mem       REG   7,22    62184     304962 /usr/lib64/libnss_files-2.17.so
+script    11224             sysadmin  mem       REG   7,22  2127336     304471 /usr/lib64/libc-2.17.so
+script    11224             sysadmin  mem       REG   7,22    11384     304404 /usr/lib64/libutempter.so.1.1.6
+script    11224             sysadmin  mem       REG   7,22    14872     305121 /usr/lib64/libutil-2.17.so
+script    11224             sysadmin  mem       REG   7,22   164112     302572 /usr/lib64/ld-2.17.so
+script    11224             sysadmin    1u      CHR  136,4      0t0          7 /dev/pts/4
+script    11224             sysadmin    2u      CHR  136,4      0t0          7 /dev/pts/4
+script    11224             sysadmin    3w      REG   7,22    49152     417300 /home/sysadmin/assignments/openfoodnetwork/typescript
+script    11224             sysadmin    4u      CHR    5,2      0t0          2 /dev/ptmx
+script    11224             sysadmin    6u      CHR  136,3      0t0          6 /dev/pts/3
+bash      11225             sysadmin  cwd       DIR   7,22     4096     491522 /home/sysadmin/assignments/openfoodnetwork
+bash      11225             sysadmin  rtd       DIR   7,22     4096          2 /
+bash      11225             sysadmin  txt       REG   7,22   960608     306720 /usr/bin/bash
+bash      11225             sysadmin  mem       REG   7,22    62184     304962 /usr/lib64/libnss_files-2.17.so
+bash      11225             sysadmin  mem       REG   7,22  2127336     304471 /usr/lib64/libc-2.17.so
+bash      11225             sysadmin  mem       REG   7,22    19776     303070 /usr/lib64/libdl-2.17.so
+bash      11225             sysadmin  mem       REG   7,22   174576     301992 /usr/lib64/libtinfo.so.5.9
+bash      11225             sysadmin  mem       REG   7,22   164112     302572 /usr/lib64/ld-2.17.so
+bash      11225             sysadmin    0u      CHR  136,5      0t0          8 /dev/pts/5
+bash      11225             sysadmin    1u      CHR  136,5      0t0          8 /dev/pts/5
+bash      11225             sysadmin    2u      CHR  136,5      0t0          8 /dev/pts/5
+bash      11225             sysadmin    6u      CHR  136,3      0t0          6 /dev/pts/3
+bash      11225             sysadmin  255u      CHR  136,5      0t0          8 /dev/pts/5
+postgres  11564             postgres  cwd   unknown                            /proc/11564/cwd (readlink: Permission denied)
+postgres  11564             postgres  rtd   unknown                            /proc/11564/root (readlink: Permission denied)
+postgres  11564             postgres  txt   unknown                            /proc/11564/exe (readlink: Permission denied)
+postgres  11564             postgres NOFD                                      /proc/11564/fd (opendir: Permission denied)
+postgres  11565             postgres  cwd   unknown                            /proc/11565/cwd (readlink: Permission denied)
+postgres  11565             postgres  rtd   unknown                            /proc/11565/root (readlink: Permission denied)
+postgres  11565             postgres  txt   unknown                            /proc/11565/exe (readlink: Permission denied)
+postgres  11565             postgres NOFD                                      /proc/11565/fd (opendir: Permission denied)
+postgres  11567             postgres  cwd   unknown                            /proc/11567/cwd (readlink: Permission denied)
+postgres  11567             postgres  rtd   unknown                            /proc/11567/root (readlink: Permission denied)
+postgres  11567             postgres  txt   unknown                            /proc/11567/exe (readlink: Permission denied)
+postgres  11567             postgres NOFD                                      /proc/11567/fd (opendir: Permission denied)
+postgres  11568             postgres  cwd   unknown                            /proc/11568/cwd (readlink: Permission denied)
+postgres  11568             postgres  rtd   unknown                            /proc/11568/root (readlink: Permission denied)
+postgres  11568             postgres  txt   unknown                            /proc/11568/exe (readlink: Permission denied)
+postgres  11568             postgres NOFD                                      /proc/11568/fd (opendir: Permission denied)
+postgres  11569             postgres  cwd   unknown                            /proc/11569/cwd (readlink: Permission denied)
+postgres  11569             postgres  rtd   unknown                            /proc/11569/root (readlink: Permission denied)
+postgres  11569             postgres  txt   unknown                            /proc/11569/exe (readlink: Permission denied)
+postgres  11569             postgres NOFD                                      /proc/11569/fd (opendir: Permission denied)
+postgres  11570             postgres  cwd   unknown                            /proc/11570/cwd (readlink: Permission denied)
+postgres  11570             postgres  rtd   unknown                            /proc/11570/root (readlink: Permission denied)
+postgres  11570             postgres  txt   unknown                            /proc/11570/exe (readlink: Permission denied)
+postgres  11570             postgres NOFD                                      /proc/11570/fd (opendir: Permission denied)
+postgres  11571             postgres  cwd   unknown                            /proc/11571/cwd (readlink: Permission denied)
+postgres  11571             postgres  rtd   unknown                            /proc/11571/root (readlink: Permission denied)
+postgres  11571             postgres  txt   unknown                            /proc/11571/exe (readlink: Permission denied)
+postgres  11571             postgres NOFD                                      /proc/11571/fd (opendir: Permission denied)
+lsof      11573             sysadmin  cwd       DIR   7,22     4096     491522 /home/sysadmin/assignments/openfoodnetwork
+lsof      11573             sysadmin  rtd       DIR   7,22     4096          2 /
+lsof      11573             sysadmin  txt       REG   7,22   154072     672915 /usr/sbin/lsof
+lsof      11573             sysadmin  mem       REG   7,22   144792     303576 /usr/lib64/libpthread-2.17.so
+lsof      11573             sysadmin  mem       REG   7,22    19776     303070 /usr/lib64/libdl-2.17.so
+lsof      11573             sysadmin  mem       REG   7,22   402384     304729 /usr/lib64/libpcre.so.1.2.0
+lsof      11573             sysadmin  mem       REG   7,22  2127336     304471 /usr/lib64/libc-2.17.so
+lsof      11573             sysadmin  mem       REG   7,22   155744     302192 /usr/lib64/libselinux.so.1
+lsof      11573             sysadmin  mem       REG   7,22   164112     302572 /usr/lib64/ld-2.17.so
+lsof      11573             sysadmin    0u      CHR  136,5      0t0          8 /dev/pts/5
+lsof      11573             sysadmin    1u      CHR  136,5      0t0          8 /dev/pts/5
+lsof      11573             sysadmin    2u      CHR  136,5      0t0          8 /dev/pts/5
+lsof      11573             sysadmin    3r      DIR  0,251        0          1 /proc
+lsof      11573             sysadmin    4r      DIR  0,251        0 1029839146 /proc/11573/fd
+lsof      11573             sysadmin    5w     FIFO   0,12      0t0 1029839151 pipe
+lsof      11573             sysadmin    6r     FIFO   0,12      0t0 1029839152 pipe
+lsof      11574             sysadmin  cwd       DIR   7,22     4096     491522 /home/sysadmin/assignments/openfoodnetwork
+lsof      11574             sysadmin  rtd       DIR   7,22     4096          2 /
+lsof      11574             sysadmin  txt       REG   7,22   154072     672915 /usr/sbin/lsof
+lsof      11574             sysadmin  mem       REG   7,22   144792     303576 /usr/lib64/libpthread-2.17.so
+lsof      11574             sysadmin  mem       REG   7,22    19776     303070 /usr/lib64/libdl-2.17.so
+lsof      11574             sysadmin  mem       REG   7,22   402384     304729 /usr/lib64/libpcre.so.1.2.0
+lsof      11574             sysadmin  mem       REG   7,22  2127336     304471 /usr/lib64/libc-2.17.so
+lsof      11574             sysadmin  mem       REG   7,22   155744     302192 /usr/lib64/libselinux.so.1
+lsof      11574             sysadmin  mem       REG   7,22   164112     302572 /usr/lib64/ld-2.17.so
+lsof      11574             sysadmin    4r     FIFO   0,12      0t0 1029839151 pipe
+lsof      11574             sysadmin    7w     FIFO   0,12      0t0 1029839152 pipe
+gssproxy  49065                 root  cwd   unknown                            /proc/49065/cwd (readlink: Permission denied)
+gssproxy  49065                 root  rtd   unknown                            /proc/49065/root (readlink: Permission denied)
+gssproxy  49065                 root  txt   unknown                            /proc/49065/exe (readlink: Permission denied)
+gssproxy  49065                 root NOFD                                      /proc/49065/fd (opendir: Permission denied)
+gssproxy  49065 49066           root  cwd   unknown                            /proc/49065/task/49066/cwd (readlink: Permission denied)
+gssproxy  49065 49066           root  rtd   unknown                            /proc/49065/task/49066/root (readlink: Permission denied)
+gssproxy  49065 49066           root  txt   unknown                            /proc/49065/task/49066/exe (readlink: Permission denied)
+gssproxy  49065 49066           root NOFD                                      /proc/49065/task/49066/fd (opendir: Permission denied)
+gssproxy  49065 49067           root  cwd   unknown                            /proc/49065/task/49067/cwd (readlink: Permission denied)
+gssproxy  49065 49067           root  rtd   unknown                            /proc/49065/task/49067/root (readlink: Permission denied)
+gssproxy  49065 49067           root  txt   unknown                            /proc/49065/task/49067/exe (readlink: Permission denied)
+gssproxy  49065 49067           root NOFD                                      /proc/49065/task/49067/fd (opendir: Permission denied)
+gssproxy  49065 49068           root  cwd   unknown                            /proc/49065/task/49068/cwd (readlink: Permission denied)
+gssproxy  49065 49068           root  rtd   unknown                            /proc/49065/task/49068/root (readlink: Permission denied)
+gssproxy  49065 49068           root  txt   unknown                            /proc/49065/task/49068/exe (readlink: Permission denied)
+gssproxy  49065 49068           root NOFD                                      /proc/49065/task/49068/fd (opendir: Permission denied)
+gssproxy  49065 49069           root  cwd   unknown                            /proc/49065/task/49069/cwd (readlink: Permission denied)
+gssproxy  49065 49069           root  rtd   unknown                            /proc/49065/task/49069/root (readlink: Permission denied)
+gssproxy  49065 49069           root  txt   unknown                            /proc/49065/task/49069/exe (readlink: Permission denied)
+gssproxy  49065 49069           root NOFD                                      /proc/49065/task/49069/fd (opendir: Permission denied)
+gssproxy  49065 49070           root  cwd   unknown                            /proc/49065/task/49070/cwd (readlink: Permission denied)
+gssproxy  49065 49070           root  rtd   unknown                            /proc/49065/task/49070/root (readlink: Permission denied)
+gssproxy  49065 49070           root  txt   unknown                            /proc/49065/task/49070/exe (readlink: Permission denied)
+gssproxy  49065 49070           root NOFD                                      /proc/49065/task/49070/fd (opendir: Permission denied)
+libvirtd  49129                 root  cwd   unknown                            /proc/49129/cwd (readlink: Permission denied)
+libvirtd  49129                 root  rtd   unknown                            /proc/49129/root (readlink: Permission denied)
+libvirtd  49129                 root  txt   unknown                            /proc/49129/exe (readlink: Permission denied)
+libvirtd  49129                 root NOFD                                      /proc/49129/fd (opendir: Permission denied)
+libvirtd  49129 49130           root  cwd   unknown                            /proc/49129/task/49130/cwd (readlink: Permission denied)
+libvirtd  49129 49130           root  rtd   unknown                            /proc/49129/task/49130/root (readlink: Permission denied)
+libvirtd  49129 49130           root  txt   unknown                            /proc/49129/task/49130/exe (readlink: Permission denied)
+libvirtd  49129 49130           root NOFD                                      /proc/49129/task/49130/fd (opendir: Permission denied)
+libvirtd  49129 49131           root  cwd   unknown                            /proc/49129/task/49131/cwd (readlink: Permission denied)
+libvirtd  49129 49131           root  rtd   unknown                            /proc/49129/task/49131/root (readlink: Permission denied)
+libvirtd  49129 49131           root  txt   unknown                            /proc/49129/task/49131/exe (readlink: Permission denied)
+libvirtd  49129 49131           root NOFD                                      /proc/49129/task/49131/fd (opendir: Permission denied)
+libvirtd  49129 49132           root  cwd   unknown                            /proc/49129/task/49132/cwd (readlink: Permission denied)
+libvirtd  49129 49132           root  rtd   unknown                            /proc/49129/task/49132/root (readlink: Permission denied)
+libvirtd  49129 49132           root  txt   unknown                            /proc/49129/task/49132/exe (readlink: Permission denied)
+libvirtd  49129 49132           root NOFD                                      /proc/49129/task/49132/fd (opendir: Permission denied)
+libvirtd  49129 49133           root  cwd   unknown                            /proc/49129/task/49133/cwd (readlink: Permission denied)
+libvirtd  49129 49133           root  rtd   unknown                            /proc/49129/task/49133/root (readlink: Permission denied)
+libvirtd  49129 49133           root  txt   unknown                            /proc/49129/task/49133/exe (readlink: Permission denied)
+libvirtd  49129 49133           root NOFD                                      /proc/49129/task/49133/fd (opendir: Permission denied)
+libvirtd  49129 49134           root  cwd   unknown                            /proc/49129/task/49134/cwd (readlink: Permission denied)
+libvirtd  49129 49134           root  rtd   unknown                            /proc/49129/task/49134/root (readlink: Permission denied)
+libvirtd  49129 49134           root  txt   unknown                            /proc/49129/task/49134/exe (readlink: Permission denied)
+libvirtd  49129 49134           root NOFD                                      /proc/49129/task/49134/fd (opendir: Permission denied)
+libvirtd  49129 49135           root  cwd   unknown                            /proc/49129/task/49135/cwd (readlink: Permission denied)
+libvirtd  49129 49135           root  rtd   unknown                            /proc/49129/task/49135/root (readlink: Permission denied)
+libvirtd  49129 49135           root  txt   unknown                            /proc/49129/task/49135/exe (readlink: Permission denied)
+libvirtd  49129 49135           root NOFD                                      /proc/49129/task/49135/fd (opendir: Permission denied)
+libvirtd  49129 49136           root  cwd   unknown                            /proc/49129/task/49136/cwd (readlink: Permission denied)
+libvirtd  49129 49136           root  rtd   unknown                            /proc/49129/task/49136/root (readlink: Permission denied)
+libvirtd  49129 49136           root  txt   unknown                            /proc/49129/task/49136/exe (readlink: Permission denied)
+libvirtd  49129 49136           root NOFD                                      /proc/49129/task/49136/fd (opendir: Permission denied)
+libvirtd  49129 49137           root  cwd   unknown                            /proc/49129/task/49137/cwd (readlink: Permission denied)
+libvirtd  49129 49137           root  rtd   unknown                            /proc/49129/task/49137/root (readlink: Permission denied)
+libvirtd  49129 49137           root  txt   unknown                            /proc/49129/task/49137/exe (readlink: Permission denied)
+libvirtd  49129 49137           root NOFD                                      /proc/49129/task/49137/fd (opendir: Permission denied)
+libvirtd  49129 49138           root  cwd   unknown                            /proc/49129/task/49138/cwd (readlink: Permission denied)
+libvirtd  49129 49138           root  rtd   unknown                            /proc/49129/task/49138/root (readlink: Permission denied)
+libvirtd  49129 49138           root  txt   unknown                            /proc/49129/task/49138/exe (readlink: Permission denied)
+libvirtd  49129 49138           root NOFD                                      /proc/49129/task/49138/fd (opendir: Permission denied)
+libvirtd  49129 49139           root  cwd   unknown                            /proc/49129/task/49139/cwd (readlink: Permission denied)
+libvirtd  49129 49139           root  rtd   unknown                            /proc/49129/task/49139/root (readlink: Permission denied)
+libvirtd  49129 49139           root  txt   unknown                            /proc/49129/task/49139/exe (readlink: Permission denied)
+libvirtd  49129 49139           root NOFD                                      /proc/49129/task/49139/fd (opendir: Permission denied)
+libvirtd  49129 49140           root  cwd   unknown                            /proc/49129/task/49140/cwd (readlink: Permission denied)
+libvirtd  49129 49140           root  rtd   unknown                            /proc/49129/task/49140/root (readlink: Permission denied)
+libvirtd  49129 49140           root  txt   unknown                            /proc/49129/task/49140/exe (readlink: Permission denied)
+libvirtd  49129 49140           root NOFD                                      /proc/49129/task/49140/fd (opendir: Permission denied)
+libvirtd  49129 49141           root  cwd   unknown                            /proc/49129/task/49141/cwd (readlink: Permission denied)
+libvirtd  49129 49141           root  rtd   unknown                            /proc/49129/task/49141/root (readlink: Permission denied)
+libvirtd  49129 49141           root  txt   unknown                            /proc/49129/task/49141/exe (readlink: Permission denied)
+libvirtd  49129 49141           root NOFD                                      /proc/49129/task/49141/fd (opendir: Permission denied)
+libvirtd  49129 49142           root  cwd   unknown                            /proc/49129/task/49142/cwd (readlink: Permission denied)
+libvirtd  49129 49142           root  rtd   unknown                            /proc/49129/task/49142/root (readlink: Permission denied)
+libvirtd  49129 49142           root  txt   unknown                            /proc/49129/task/49142/exe (readlink: Permission denied)
+libvirtd  49129 49142           root NOFD                                      /proc/49129/task/49142/fd (opendir: Permission denied)
+libvirtd  49129 49143           root  cwd   unknown                            /proc/49129/task/49143/cwd (readlink: Permission denied)
+libvirtd  49129 49143           root  rtd   unknown                            /proc/49129/task/49143/root (readlink: Permission denied)
+libvirtd  49129 49143           root  txt   unknown                            /proc/49129/task/49143/exe (readlink: Permission denied)
+libvirtd  49129 49143           root NOFD                                      /proc/49129/task/49143/fd (opendir: Permission denied)
+libvirtd  49129 49144           root  cwd   unknown                            /proc/49129/task/49144/cwd (readlink: Permission denied)
+libvirtd  49129 49144           root  rtd   unknown                            /proc/49129/task/49144/root (readlink: Permission denied)
+libvirtd  49129 49144           root  txt   unknown                            /proc/49129/task/49144/exe (readlink: Permission denied)
+libvirtd  49129 49144           root NOFD                                      /proc/49129/task/49144/fd (opendir: Permission denied)
+sshd      60002                 root  cwd   unknown                            /proc/60002/cwd (readlink: Permission denied)
+sshd      60002                 root  rtd   unknown                            /proc/60002/root (readlink: Permission denied)
+sshd      60002                 root  txt   unknown                            /proc/60002/exe (readlink: Permission denied)
+sshd      60002                 root NOFD                                      /proc/60002/fd (opendir: Permission denied)
+sshd      60005             student1  cwd   unknown                            /proc/60005/cwd (readlink: Permission denied)
+sshd      60005             student1  rtd   unknown                            /proc/60005/root (readlink: Permission denied)
+sshd      60005             student1  txt   unknown                            /proc/60005/exe (readlink: Permission denied)
+sshd      60005             student1 NOFD                                      /proc/60005/fd (opendir: Permission denied)
+bash      60006             student1  cwd   unknown                            /proc/60006/cwd (readlink: Permission denied)
+bash      60006             student1  rtd   unknown                            /proc/60006/root (readlink: Permission denied)
+bash      60006             student1  txt   unknown                            /proc/60006/exe (readlink: Permission denied)
+bash      60006             student1 NOFD                                      /proc/60006/fd (opendir: Permission denied)
+sshd      60754                 root  cwd   unknown                            /proc/60754/cwd (readlink: Permission denied)
+sshd      60754                 root  rtd   unknown                            /proc/60754/root (readlink: Permission denied)
+sshd      60754                 root  txt   unknown                            /proc/60754/exe (readlink: Permission denied)
+sshd      60754                 root NOFD                                      /proc/60754/fd (opendir: Permission denied)
+sshd      60758             sysadmin  cwd   unknown                            /proc/60758/cwd (readlink: Permission denied)
+sshd      60758             sysadmin  rtd   unknown                            /proc/60758/root (readlink: Permission denied)
+sshd      60758             sysadmin  txt   unknown                            /proc/60758/exe (readlink: Permission denied)
+sshd      60758             sysadmin NOFD                                      /proc/60758/fd (opendir: Permission denied)
+bash      60759             sysadmin  cwd       DIR   7,22     4096     491522 /home/sysadmin/assignments/openfoodnetwork
+bash      60759             sysadmin  rtd       DIR   7,22     4096          2 /
+bash      60759             sysadmin  txt       REG   7,22   960608     306720 /usr/bin/bash
+bash      60759             sysadmin  mem       REG   7,22    62184     304962 /usr/lib64/libnss_files-2.17.so
+bash      60759             sysadmin  mem       REG   7,22  2127336     304471 /usr/lib64/libc-2.17.so
+bash      60759             sysadmin  mem       REG   7,22    19776     303070 /usr/lib64/libdl-2.17.so
+bash      60759             sysadmin  mem       REG   7,22   174576     301992 /usr/lib64/libtinfo.so.5.9
+bash      60759             sysadmin  mem       REG   7,22   164112     302572 /usr/lib64/ld-2.17.so
+bash      60759             sysadmin    0u      CHR  136,3      0t0          6 /dev/pts/3
+bash      60759             sysadmin    1u      CHR  136,3      0t0          6 /dev/pts/3
+bash      60759             sysadmin    2u      CHR  136,3      0t0          6 /dev/pts/3
+bash      60759             sysadmin    6u      CHR  136,3      0t0          6 /dev/pts/3
+bash      60759             sysadmin  255u      CHR  136,3      0t0          6 /dev/pts/3
+packageki 61574                 root  cwd   unknown                            /proc/61574/cwd (readlink: Permission denied)
+packageki 61574                 root  rtd   unknown                            /proc/61574/root (readlink: Permission denied)
+packageki 61574                 root  txt   unknown                            /proc/61574/exe (readlink: Permission denied)
+packageki 61574                 root NOFD                                      /proc/61574/fd (opendir: Permission denied)
+pool      61574 10713           root  cwd   unknown                            /proc/61574/task/10713/cwd (readlink: Permission denied)
+pool      61574 10713           root  rtd   unknown                            /proc/61574/task/10713/root (readlink: Permission denied)
+pool      61574 10713           root  txt   unknown                            /proc/61574/task/10713/exe (readlink: Permission denied)
+pool      61574 10713           root NOFD                                      /proc/61574/task/10713/fd (opendir: Permission denied)
+gmain     61574 61575           root  cwd   unknown                            /proc/61574/task/61575/cwd (readlink: Permission denied)
+gmain     61574 61575           root  rtd   unknown                            /proc/61574/task/61575/root (readlink: Permission denied)
+gmain     61574 61575           root  txt   unknown                            /proc/61574/task/61575/exe (readlink: Permission denied)
+gmain     61574 61575           root NOFD                                      /proc/61574/task/61575/fd (opendir: Permission denied)
+gdbus     61574 61576           root  cwd   unknown                            /proc/61574/task/61576/cwd (readlink: Permission denied)
+gdbus     61574 61576           root  rtd   unknown                            /proc/61574/task/61576/root (readlink: Permission denied)
+gdbus     61574 61576           root  txt   unknown                            /proc/61574/task/61576/exe (readlink: Permission denied)
+gdbus     61574 61576           root NOFD                                      /proc/61574/task/61576/fd (opendir: Permission denied)
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit      clear
+[H[J[sysadmin@csc415-server23 openfoodnetwork]$ ilim    ulimit -a
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1031293
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000
+bash: ulimit: open files: cannot modify limit: Operation not permitted
+[sysadmin@csc415-server23 openfoodnetwork]$ sudo echo 200000 > /pr
+oc/sys/fs/file-max
+bash: /proc/sys/fs/file-max: Read-only file system
+[sysadmin@csc415-server23 openfoodnetwork]$ sudo echo 200000 > /pr
+oc/sys/fs/file-max[Aerver23 openfoodnetwork]$ [7Pulimit -n 70000
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000[1@su[1@u[1@d[1@o[1@ 
+sudo: ulimit: command not found
+[sysadmin@csc415-server23 openfoodnetwork]$ sudo su
+[root@csc415-server23 openfoodnetwork]# il  ulimit -n 7000
+[root@csc415-server23 openfoodnetwork]# ulimit -n 70000
+[root@csc415-server23 openfoodnetwork]# exit
+exit
+[sysadmin@csc415-server23 openfoodnetwork]$ i ulimit -a
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1031293
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000
+bash: ulimit: open files: cannot modify limit: Operation not permitted
+[sysadmin@csc415-server23 openfoodnetwork]$ su USER --shell /bin/b
+ash --command "ulimit -n"
+su: user USER does not exist
+[sysadmin@csc415-server23 openfoodnetwork]$ su USER --shell /bin/b
+ash --command "ulimit -n"[A openfoodnetwork]$ [7Pulimit -n 70000
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000a[Kn 70000[1@_[1@S[1@ 
+bash: ulimit: _S: invalid number
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit _S -n 70000[1P[1@-
+bash: ulimit: open files: cannot modify limit: Invalid argument
+[sysadmin@csc415-server23 openfoodnetwork]$ alias ulimit='i ulimit -
+S'
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000
+bash: ulimit: open files: cannot modify limit: Invalid argument
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000      
+1024
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 7- 0000
+bash: ulimit: open files: cannot modify limit: Invalid argument
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000[1P[1@S[1@n
+bash: ulimit: open files: cannot modify limit: Invalid argument
+[sysadmin@csc415-server23 openfoodnetwork]$ al  ulimit -Sn 70000[1Pn 70000[K 70000alias ulimit='ulimit -
+S''[1P'[A[sysadmin@csc415-server23 openfoodnetwork]$ alias ulimit='ulimit '
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ alias ulimit='ulimit [1P'
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ alias ulimit='ulimit[1P't'
+[sysadmin@csc415-server23 openfoodnetwork]$ alias ulimit='ulimit'[5Pulimit -Sn 70000
+bash: ulimit: open files: cannot modify limit: Invalid argument
+[sysadmin@csc415-server23 openfoodnetwork]$ cd ..
+[sysadmin@csc415-server23 assignments]$ cd ..
+[sysadmin@csc415-server23 ~]$ cd ..     ls
+[0m[01;34massignments[0m  [01;34mvar[0m
+[sysadmin@csc415-server23 ~]$ ls  cd ..
+[sysadmin@csc415-server23 home]$ ls
+[0m[01;34mstudent1[0m  [01;34mstudent3[0m  [01;34mstudent5[0m  [01;34msysadmin[0m
+[01;34mstudent2[0m  [01;34mstudent4[0m  [01;34mstudent6[0m  [01;34mteam[0m
+[sysadmin@csc415-server23 home]$ cd sysadmin/
+[sysadmin@csc415-server23 ~]$ ks
+bash: ks: command not found...
+[sysadmin@csc415-server23 ~]$ ls
+[0m[01;34massignments[0m  [01;34mvar[0m
+[sysadmin@csc415-server23 ~]$ cd ..
+[sysadmin@csc415-server23 home]$ cd ..
+[sysadmin@csc415-server23 /]$ cd ..
+[sysadmin@csc415-server23 /]$ ls
+[0m[01;36mbin[0m        [01;34mdev[0m   [01;36mlib[0m         [01;34mmedia[0m  [01;34mproc[0m  [01;36msbin[0m  [30;42mtmp[0m
+[01;34mboot[0m       [01;34metc[0m   [01;36mlib64[0m       [01;34mmnt[0m    [01;34mroot[0m  [01;34msrv[0m   [01;34musr[0m
+copyright  [01;34mhome[0m  [01;34mlost+found[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msys[0m   [01;34mvar[0m
+[sysadmin@csc415-server23 /]$ cd con   etc
+[sysadmin@csc415-server23 etc]$ ls
+DIR_COLORS                  motd
+DIR_COLORS.256color         [0m[01;36mmtab[0m
+DIR_COLORS.lightbgcolor     mtools.conf
+GREP_COLORS                 [01;34mmultipath[0m
+GeoIP.conf                  my.cnf
+GeoIP.conf.default          [01;34mmy.cnf.d[0m
+[01;34mNetworkManager[0m              [01;34mnamed[0m
+[01;34mPackageKit[0m                  named.conf
+[01;34mUPower[0m                      named.iscdlv.key
+[01;34mX11[0m                         named.rfc1912.zones
+[01;34mabrt[0m                        named.root.key
+adjtime                     nanorc
+aliases                     netconfig
+aliases.db                  networks
+[01;34malsa[0m                        nfs.conf
+[01;34malternatives[0m                nfsmount.conf
+[01;34mansible[0m                     nscd.conf
+asound.conf                 nsswitch.conf
+at.deny                     nsswitch.conf.bak
+[01;34maudisp[0m                      nsswitch.conf.rpmnew
+[01;34maudit[0m                       [01;34mntp[0m
+[01;34mavahi[0m                       numad.conf
+[01;34mbash_completion.d[0m           [01;34moddjob[0m
+bashrc                      oddjobd.conf
+[01;34mbinfmt.d[0m                    [01;34moddjobd.conf.d[0m
+[01;34mbluetooth[0m                   [01;34mopenldap[0m
+[01;34mbrltty[0m                      [01;34mopt[0m
+brltty.conf                 os-release
+centos-release              [01;34mpam.d[0m
+centos-release-upstream     passwd
+[01;34mchkconfig.d[0m                 passwd-
+chrony.conf                 pbm2ppa.conf
+chrony.keys                 [01;34mphp.d[0m
+[01;34mcifs-utils[0m                  php.ini
+[01;34mcron.d[0m                      [01;34mphpPgAdmin[0m
+[01;34mcron.daily[0m                  pinforc
+cron.deny                   [01;34mpkcs11[0m
+[01;34mcron.hourly[0m                 [01;34mpki[0m
+[01;34mcron.monthly[0m                [01;34mplymouth[0m
+[01;34mcron.weekly[0m                 [01;34mpm[0m
+crontab                     pnm2ppa.conf
+csh.cshrc                   [01;34mpolkit-1[0m
+csh.login                   [01;34mpopt.d[0m
+[01;34mcups[0m                        [01;34mpostfix[0m
+[01;34mcupshelpers[0m                 [01;34mppp[0m
+[01;34mdbus-1[0m                      [01;34mprelink.conf.d[0m
+[01;34mdconf[0m                       printcap
+[01;34mdefault[0m                     profile
+[01;34mdepmod.d[0m                    [01;34mprofile.d[0m
+[01;34mdhcp[0m                        protocols
+dleyna-server-service.conf  [01;34mpulse[0m
+dnsmasq.conf                [01;34mpurple[0m
+[01;34mdnsmasq.d[0m                   [01;34mpython[0m
+dracut.conf                 [01;34mqemu-ga[0m
+[01;34mdracut.conf.d[0m               [01;34mqemu-kvm[0m
+drirc                       radvd.conf
+e2fsck.conf                 [01;34mras[0m
+enscript.cfg                [01;34mrc.d[0m
+environment                 [01;36mrc.local[0m
+ethertypes                  [01;36mrc0.d[0m
+exports                     [01;36mrc1.d[0m
+[01;34mexports.d[0m                   [01;36mrc2.d[0m
+[01;36mfavicon.png[0m                 [01;36mrc3.d[0m
+[01;34mfcoe[0m                        [01;36mrc4.d[0m
+[01;34mfestival[0m                    [01;36mrc5.d[0m
+filesystems                 [01;36mrc6.d[0m
+[01;34mfirefox[0m                     [01;34mrdma[0m
+[01;34mfirewalld[0m                   [01;34mredhat-lsb[0m
+[01;34mflatpak[0m                     [01;36mredhat-release[0m
+[01;34mfonts[0m                       request-key.conf
+fprintd.conf                [01;34mrequest-key.d[0m
+fstab                       resolv.conf
+fuse.conf                   rpc
+[01;34mgconf[0m                       [01;34mrpm[0m
+[01;34mgcrypt[0m                      rsyncd.conf
+gdbinit                     rsyslog.conf
+[01;34mgdbinit.d[0m                   [01;34mrsyslog.d[0m
+[01;34mgdm[0m                         rwtab
+[01;34mgeoclue[0m                     [01;34mrwtab.d[0m
+[01;34mghostscript[0m                 [01;34msamba[0m
+[01;34mgnupg[0m                       [01;34msane.d[0m
+[01;34mgroff[0m                       [01;34msasl2[0m
+group                       [01;34mscl[0m
+group-                      screenrc
+gshadow                     securetty
+gshadow-                    [01;34msecurity[0m
+[01;34mgss[0m                         [01;34mselinux[0m
+[01;34mgssproxy[0m                    services
+host.conf                   sestatus.conf
+hostname                    [01;34msetroubleshoot[0m
+hosts                       [01;34msetuptool.d[0m
+hosts.allow                 [01;34msgml[0m
+hosts.deny                  shadow
+[01;34mhp[0m                          shadow-
+[01;34mhttpd[0m                       shells
+idmapd.conf                 [01;34mskel[0m
+[01;36minit.d[0m                      [01;34msmartmontools[0m
+inittab                     smi.conf
+inputrc                     [01;34msmrsh[0m
+[01;34miproute2[0m                    [01;34msnmp[0m
+ipsec.conf                  sos.conf
+[01;34mipsec.d[0m                     [01;34mspeech-dispatcher[0m
+ipsec.secrets               [01;34mssh[0m
+[01;34miscsi[0m                       [01;34mssl[0m
+issue                       statetab
+issue.net                   [01;34mstatetab.d[0m
+[01;34mjava[0m                        [01;34mstunnel[0m
+[01;34mjvm[0m                         subgid
+[01;34mjvm-commmon[0m                 subuid
+kdump.conf                  [01;34msubversion[0m
+[01;34mkernel[0m                      sudo-ldap.conf
+krb5.conf                   sudo.conf
+[01;34mkrb5.conf.d[0m                 sudoers
+ksmtuned.conf               [01;34msudoers.d[0m
+ld.so.cache                 [01;34msysconfig[0m
+ld.so.conf                  sysctl.conf
+[01;34mld.so.conf.d[0m                [01;34msysctl.d[0m
+libaudit.conf               [01;36msystem-release[0m
+[01;34mlibibverbs.d[0m                system-release-cpe
+[01;34mlibnl[0m                       [01;34msystemd[0m
+[01;34mlibreport[0m                   tcsd.conf
+libuser.conf                [01;34mterminfo[0m
+[01;34mlibvirt[0m                     [01;34mtmpfiles.d[0m
+locale.conf                 trusted-key.key
+[01;36mlocaltime[0m                   [01;34mtuned[0m
+login.defs                  [01;34mudev[0m
+logrotate.conf              [01;34mudisks2[0m
+[01;34mlogrotate.d[0m                 [01;34munbound[0m
+[01;34mlsb-release.d[0m               updatedb.conf
+[01;34mlsm[0m                         usb_modeswitch.conf
+[01;34mlvm[0m                         vimrc
+machine-id                  virc
+magic                       [01;34mvmware-tools[0m
+[01;34mmail[0m                        [01;34mvzdump[0m
+mail.rc                     wgetrc
+mailcap                     [01;34mwpa_supplicant[0m
+makedumpfile.conf.sample    wvdial.conf
+man_db.conf                 [01;34mxdg[0m
+[01;34mmaven[0m                       xinetd.conf
+[01;34mmcelog[0m                      [01;34mxinetd.d[0m
+mime.types                  [01;34mxml[0m
+mke2fs.conf                 [01;34myum[0m
+[01;34mmodprobe.d[0m                  yum.conf
+[01;34mmodules-load.d[0m              [01;34myum.repos.d[0m
+[sysadmin@csc415-server23 etc]$ cd security
+[sysadmin@csc415-server23 security]$ ls
+access.conf       [0m[01;34mconsole.perms.d[0m  [01;34mnamespace.d[0m     sepermit.conf
+chroot.conf       group.conf       [01;32mnamespace.init[0m  time.conf
+[01;34mconsole.apps[0m      limits.conf      opasswd
+console.handlers  [01;34mlimits.d[0m         pam_env.conf
+console.perms     namespace.conf   pwquality.conf
+[sysadmin@csc415-server23 security]$ sydi     udo su
+[root@csc415-server23 security]# ulimit -Sn 16384
+bash: ulimit: open files: cannot modify limit: Invalid argument
+[root@csc415-server23 security]# ulimit -n 164 384 unlimited
+[root@csc415-server23 security]# exit
+exit
+[sysadmin@csc415-server23 security]$ cd ..
+[sysadmin@csc415-server23 etc]$ cd ..
+[sysadmin@csc415-server23 /]$ ls
+[0m[01;36mbin[0m        [01;34mdev[0m   [01;36mlib[0m         [01;34mmedia[0m  [01;34mproc[0m  [01;36msbin[0m  [30;42mtmp[0m
+[01;34mboot[0m       [01;34metc[0m   [01;36mlib64[0m       [01;34mmnt[0m    [01;34mroot[0m  [01;34msrv[0m   [01;34musr[0m
+copyright  [01;34mhome[0m  [01;34mlost+found[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msys[0m   [01;34mvar[0m
+[sysadmin@csc415-server23 /]$ cd home
+[sysadmin@csc415-server23 home]$ cd sysadmin/
+[sysadmin@csc415-server23 ~]$ ls
+[0m[01;34massignments[0m  [01;34mvar[0m
+[sysadmin@csc415-server23 ~]$ cd assignments/
+[sysadmin@csc415-server23 assignments]$ ls
+[0m[01;34mAssignment1[0m                [01;34mofn-install[0m      testdebug.c
+[01;34mOrgoPack[0m                   [01;34mopenfoodnetwork[0m
+[01;34mTCNJ_IndividualAssignment[0m  [01;32mtest[0m
+[sysadmin@csc415-server23 assignments]$ cd openfoodnetwork/
+[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er
+[A[B=> Booting Unicorn
+=> Rails 3.2.22.5 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[SKYLIGHT] [1.6.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+Exiting
+/home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize': FATAL:  password authentication failed for user "ofn" (PG::Error)
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+	from /home/sysadmin/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+	from /home/sysadmin/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/model_schema.rb:224:in `table_exists?'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:89:in `should_persist?'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:73:in `persist'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:21:in `set'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/preferable_class_methods.rb:27:in `block in preference'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/preferable.rb:41:in `set_preference'
+	from /home/sysadmin/assignments/openfoodnetwork/config/application.rb:46:in `block in <class:Application>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `run'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `each'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/sysadmin/assignments/openfoodnetwork/config/environment.rb:5:in `<top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/skylight-1.6.1/lib/skylight/probes.rb:83:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:3:in `block in <main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `initialize'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `new'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `<main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `parse_file'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:200:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:46:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:254:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:70:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `tap'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ [3Pcd openfoodnetwork/
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ cd openfoodnetwork/ls[Kcd assignments/ls[Kcd sysadmin/[5Phomels[Kcd ..sudo suls[Kcd securityls[Kcd etc[4Plscd ..[3Plskscd sysadmin/ls[Kcd ..[3Plscd ..ulimit -Sn 70000alias ulimit='ulimit'[5Pulimit -Sn 70000[1Pn 70000[K 70000alias ulimit='ulimit -
+S'[Aysadmin@csc415-server23 openfoodnetwork]$ [4Pulimit -S -n 70000
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -S -n 70000_S -n 70000su USER --shell /bin/b
+ash --command "ulimit -n"[A openfoodnetwork]$ [7Pulimit -n 70000
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000su USER --shell /bin/b
+ash --command "ulimit -n"[A openfoodnetwork]$ [7Pulimit -n 70000
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000a[K[2Psudo suulimit -n 70000echo 200000 > /pr
+oc/sys/fs/file-max[Aerver23 openfoodnetwork]$ [7Pulimit -n 70000
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000a[K[4Pclear[1Plsofsudo service postgresq
+l start[Ain@csc415-server23 openfoodnetwork]$ postgres -D /usr/local
+/var/postgres
+postgres cannot access the server configuration file "/usr/local/var/postgres/postgresql.conf": No such file or directory
+[sysadmin@csc415-server23 openfoodnetwork]$ postgres -D /usr/local
+/var/postgres[A415-server23 openfoodnetwork]$ bundle exec rails serv
+er[K[Aysadmin@csc415-server23 openfoodnetwork]$ [3Pcd openfoodnetwork/
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ cd openfoodnetwork/ls[Kcd assignments/ls[Kcd sysadmin/[5Phomels[Kcd ..sudo suls[Kcd securityls[Kcd etc[4Plscd ..[3Plskscd sysadmin/ls[Kcd ..[3Plscd ..ulimit -Sn 70000alias ulimit='ulimit'[5Pulimit -Sn 70000[1Pn 70000[K 70000alias ulimit='ulimit -
+S'[Aysadmin@csc415-server23 openfoodnetwork]$ [4Pulimit -S -n 70000
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -S -n 70000_S -n 70000su USER --shell /bin/b
+ash --command "ulimit -n"[A openfoodnetwork]$ [7Pulimit -n 70000
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000a[K[2Psudo suulimit -n 70000echo 200000 > /pr
+oc/sys/fs/file-max[Aerver23 openfoodnetwork]$ [7Pulimit -n 70000
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -n 70000a[K[4Pclear[1Plsofsudo service postgresq
+l start[Ain@csc415-server23 openfoodnetwork]$ postgres -D /usr/local
+/var/postgres[A415-server23 openfoodnetwork]$ bundle exec rails serv
+er[K[Aysadmin@csc415-server23 openfoodnetwork]$ cd ..[K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ cd ..nano application.rbls[Knano application.rbcd ..[Kbundle exec rails serv
+er[Aysadmin@csc415-server23 openfoodnetwork]$ postgres -D /usr/local
+/var/postgres             [A[sysadmin@csc415-server23 openfoodnetwork]$ postgres -D /usr/local
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ postgres -D /usr/loca[K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ postgres -D /usr/loca                     sudo systemctl    mctl start p
+ostfix.service gre               gref sql
+Error: Too many open files
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -a
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1031293
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+[sysadmin@csc415-server23 openfoodnetwork]$ ulimit -asudo systemctl start p
+ostgresql[A@csc415-server23 openfoodnetwork]$ postgres -D /usr/local
+/var/postgres[A415-server23 openfoodnetwork]$ sudo systemctl start p
+[4Postgresql[A[sysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl start t po
+[1P[A[sysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl star pos
+[1P[A[sysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl sta post
+[1P[A[sysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl st postg
+[1P[A[sysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl s postgr
+[1P[A[sysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl s postg
+[1@r[Asysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl st post
+[1@g[Asysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl sto pos
+[1@t[Asysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl stop po
+[1@s[Asysadmin@csc415-server23 openfoodnetwork]$ sudo systemctl stop
+
+Error: Too many open files
+[sysadmin@csc415-server23 openfoodnetwork]$ pg
+bash: pg: command not found...
+[sysadmin@csc415-server23 openfoodnetwork]$ pgs  swl
+bash: pswl: command not found...
+[sysadmin@csc415-server23 openfoodnetwork]$ pswl  q; l
+psql: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+[sysadmin@csc415-server23 openfoodnetwork]$ slec   eklec   k  lect
+bash: syntax error near unexpected token `newline'
+[sysadmin@csc415-server23 openfoodnetwork]$ select
+bash: syntax error near unexpected token `newline'
+[sysadmin@csc415-server23 openfoodnetwork]$ select pg_terminate_ba
+ckend
+> select pg_terminate_backend> [K
+> select pg_terminate_backend; > [Kexit
+bash: syntax error near unexpected token `exit'
+[sysadmin@csc415-server23 openfoodnetwork]$ show ful   processlist
+bash: show: command not found...
+[sysadmin@csc415-server23 openfoodnetwork]$ top
+[H[J[0;10mtop - 21:45:23 up 41 days,  8:34,  4 users,  load average: 0.09, 0[0;10m[39;49m[0;10m[39;49m[K
+Tasks:[0;10m[39;49m[1m  51 [0;10m[39;49mtotal,[0;10m[39;49m[1m   1 [0;10m[39;49mrunning,[0;10m[39;49m[1m  50 [0;10m[39;49msleeping,[0;10m[39;49m[1m   0 [0;10m[39;49mstopped,[0;10m[39;49m[1m   0 [0;10m[39;49mzomb[0;10m[39;49m[0;10m[39;49m[K
+%Cpu(s):[0;10m[39;49m[1m  0.0 [0;10m[39;49mus,[0;10m[39;49m[1m  0.3 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 99.7 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245564 [0;10m[39;49mfree,[0;10m[39;49m[1m   377436 [0;10m[39;49mused,[0;10m[39;49m[1m   425576 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245564 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM [0;10m[39;49m[K
+[0;10m    1 root      20   0   43512   3868   2592 S   0.0  0.4 [0;10m[39;49m[K
+[0;10m   48 root      20   0   78224  13196  13048 S   0.0  1.3 [0;10m[39;49m[K
+[0;10m   63 root      20   0  118860      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   75 root      20   0   24692   1944   1792 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   76 root      39  19   16852      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   77 root      20   0  297916   3432   2940 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m   78 libstor+  20   0    8544     32      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   87 root      20   0  115816      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   88 root      20   0    6484      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   90 root      20   0   24312    228    208 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   91 polkitd   20   0  544900   2556   2064 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   94 root      20   0  113332    628    588 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m   96 root      20   0  425996   2332   2120 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  100 root      20   0   21836   1560   1260 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m  101 dbus      20   0   25036   2380   1676 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  110 root      20   0   71800      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  111 root      20   0   71800      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  122 root      20   0  418804   3444   3256 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  123 root      20   0  113332      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  129 root      20   0  460128   3656   2852 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  198 root      20   0  113384      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  385 root      20   0   90056      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  386 root      20   0  458832    396      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  387 root      20   0  106008      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  407 root      20   0   25004      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  416 root      20   0  329420    492    424 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  419 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  420 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  421 root      20   0  237268      4      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  422 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  423 root      20   0   25868      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  425 root      20   0   22656   1264   1164 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m  437 root      20   0  101184   1636   1464 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  444 smmsp     20   0   84136   1420   1284 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m 5853 apache    20   0  329420      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m10995 sysadmin  20   0   10568   1652   1516 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m10997 sysadmin  20   0   10572   1168   1028 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m10998 sysadmin  20   0   15244   6412   2584 S   0.0  0.6 [0;10m[39;49m[K
+[0;10m11222 sysadmin  20   0   10568   1656   1524 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m11224 sysadmin  20   0   10572   1092    956 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m11225 sysadmin  20   0   15240   6440   2616 S   0.0  0.6 [0;10m[39;49m[K
+[0;10m[1m11769 sysadmin  20   0   54032   3784   3172 R   0.0  0.4 [0;10m[39;49m[K
+[0;10m49065 root      20   0   97680      4      0 S   0.0  0.0 [0;10m[39;49m[K[H[0;10mtop - 21:45:26 up 41 days,  8:34,  4 users,  load average: 0.09, 0[0;10m[39;49m[0;10m[39;49m[K
+
+%Cpu(s):[0;10m[39;49m[1m  1.2 [0;10m[39;49mus,[0;10m[39;49m[1m  0.7 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 98.0 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245672 [0;10m[39;49mfree,[0;10m[39;49m[1m   377320 [0;10m[39;49mused,[0;10m[39;49m[1m   425584 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245672 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+
+[0;10m61574 root      20   0  843896 208056   3148 S  12.7 19.8 [0;10m[39;49m[K
+[0;10m    1 root      20   0   43512   3868   2592 S   0.0  0.4 [0;10m[39;49m[K
+[0;10m   48 root      20   0   78224  13196  13048 S   0.0  1.3 [0;10m[39;49m[K
+[0;10m   63 root      20   0  118860      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   75 root      20   0   24692   1944   1792 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   76 root      39  19   16852      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   77 root      20   0  297916   3432   2940 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m   78 libstor+  20   0    8544     32      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   87 root      20   0  115816      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   88 root      20   0    6484      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   90 root      20   0   24312    228    208 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   91 polkitd   20   0  544900   2556   2064 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   94 root      20   0  113332    628    588 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m   96 root      20   0  425996   2332   2120 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  100 root      20   0   21836   1560   1260 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m  101 dbus      20   0   25036   2380   1676 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  110 root      20   0   71800      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  111 root      20   0   71800      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  122 root      20   0  418804   3444   3256 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  123 root      20   0  113332      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  129 root      20   0  460128   3656   2852 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  198 root      20   0  113384      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  385 root      20   0   90056      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  386 root      20   0  458832    396      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  387 root      20   0  106008      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  407 root      20   0   25004      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  416 root      20   0  329420    492    424 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  419 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  420 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  421 root      20   0  237268      4      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  422 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  423 root      20   0   25868      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  425 root      20   0   22656   1264   1164 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m  437 root      20   0  101184   1636   1464 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  444 smmsp     20   0   84136   1420   1284 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m 5853 apache    20   0  329420      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m10995 sysadmin  20   0   10568   1652   1516 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m10997 sysadmin  20   0   10572   1168   1028 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m10998 sysadmin  20   0   15244   6412   2584 S   0.0  0.6 [0;10m[39;49m[K
+[0;10m11222 sysadmin  20   0   10568   1656   1524 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m11224 sysadmin  20   0   10572   1092    956 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m11225 sysadmin  20   0   15240   6440   2616 S   0.0  0.6 [0;10m[39;49m[K
+[0;10m[1m11769 sysadmin  20   0   54032   3800   3172 R   0.0  0.4 [0;10m[39;49m[K[H[0;10mtop - 21:45:29 up 41 days,  8:34,  4 users,  load average: 0.08, 0[0;10m[39;49m[0;10m[39;49m[K
+
+%Cpu(s):[0;10m[39;49m[1m  1.4 [0;10m[39;49mus,[0;10m[39;49m[1m  0.2 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 98.4 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245360 [0;10m[39;49mfree,[0;10m[39;49m[1m   377616 [0;10m[39;49mused,[0;10m[39;49m[1m   425600 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245360 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+
+[0;10m61574 root      20   0  843896 208056   3148 S  12.0 19.8 [0;10m[39;49m[K
+[0;10m  100 root      20   0   21836   1560   1260 S   0.3  0.1 [0;10m[39;49m[K
+[0;10m    1 root      20   0   43512   3868   2592 S   0.0  0.4 [0;10m[39;49m[K
+[0;10m   48 root      20   0   78224  13196  13048 S   0.0  1.3 [0;10m[39;49m[K
+[0;10m   63 root      20   0  118860      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   75 root      20   0   24692   1944   1792 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   76 root      39  19   16852      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   77 root      20   0  297916   3432   2940 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m   78 libstor+  20   0    8544     32      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   87 root      20   0  115816      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   88 root      20   0    6484      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   90 root      20   0   24312    228    208 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   91 polkitd   20   0  544900   2556   2064 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   94 root      20   0  113332    628    588 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m   96 root      20   0  425996   2332   2120 S   0.0  0.2 [0;10m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[0;10mtop - 21:45:32 up 41 days,  8:35,  4 users,  load average: 0.15, 0[0;10m[39;49m[0;10m[39;49m[K
+
+%Cpu(s):[0;10m[39;49m[1m  0.9 [0;10m[39;49mus,[0;10m[39;49m[1m  0.2 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 98.9 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245536 [0;10m[39;49mfree,[0;10m[39;49m[1m   377440 [0;10m[39;49mused,[0;10m[39;49m[1m   425600 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245536 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+
+[0;10m61574 root      20   0  843896 208056   3148 S  11.3 19.8 [0;10m[39;49m[K
+[0;10m    1 root      20   0   43512   3868   2592 S   0.0  0.4 [0;10m[39;49m[K
+[0;10m   48 root      20   0   78224  13196  13048 S   0.0  1.3 [0;10m[39;49m[K
+[0;10m   63 root      20   0  118860      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   75 root      20   0   24692   1944   1792 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   76 root      39  19   16852      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   77 root      20   0  297916   3432   2940 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m   78 libstor+  20   0    8544     32      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   87 root      20   0  115816      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   88 root      20   0    6484      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   90 root      20   0   24312    228    208 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   91 polkitd   20   0  544900   2556   2064 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   94 root      20   0  113332    628    588 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m   96 root      20   0  425996   2332   2120 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  100 root      20   0   21836   1560   1260 S   0.0  0.1 [0;10m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[0;10mtop - 21:45:35 up 41 days,  8:35,  4 users,  load average: 0.15, 0[0;10m[39;49m[0;10m[39;49m[K
+
+%Cpu(s):[0;10m[39;49m[1m  1.2 [0;10m[39;49mus,[0;10m[39;49m[1m  0.7 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 98.1 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245648 [0;10m[39;49mfree,[0;10m[39;49m[1m   377320 [0;10m[39;49mused,[0;10m[39;49m[1m   425608 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245648 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+
+[0;10m61574 root      20   0  843896 208056   3148 S  11.7 19.8 [0;10m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[0;10mtop - 21:45:38 up 41 days,  8:35,  4 users,  load average: 0.14, 0[0;10m[39;49m[0;10m[39;49m[K
+
+%Cpu(s):[0;10m[39;49m[1m  0.9 [0;10m[39;49mus,[0;10m[39;49m[1m  0.2 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 98.8 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245524 [0;10m[39;49mfree,[0;10m[39;49m[1m   377444 [0;10m[39;49mused,[0;10m[39;49m[1m   425608 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245524 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+
+[0;10m61574 root      20   0  843896 208056   3148 S  12.3 19.8 [0;10m[39;49m[K
+[0;10m  100 root      20   0   21836   1560   1260 S   0.3  0.1 [0;10m[39;49m[K
+[0;10m    1 root      20   0   43512   3868   2592 S   0.0  0.4 [0;10m[39;49m[K
+[0;10m   48 root      20   0   78224  13196  13048 S   0.0  1.3 [0;10m[39;49m[K
+[0;10m   63 root      20   0  118860      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   75 root      20   0   24692   1944   1792 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   76 root      39  19   16852      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   77 root      20   0  297916   3432   2940 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m   78 libstor+  20   0    8544     32      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   87 root      20   0  115816      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   88 root      20   0    6484      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   90 root      20   0   24312    228    208 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   91 polkitd   20   0  544900   2556   2064 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   94 root      20   0  113332    628    588 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m   96 root      20   0  425996   2332   2120 S   0.0  0.2 [0;10m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[0;10mtop - 21:45:41 up 41 days,  8:35,  4 users,  load average: 0.14, 0[0;10m[39;49m[0;10m[39;49m[K
+
+%Cpu(s):[0;10m[39;49m[1m  1.0 [0;10m[39;49mus,[0;10m[39;49m[1m  0.1 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 98.9 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245520 [0;10m[39;49mfree,[0;10m[39;49m[1m   377444 [0;10m[39;49mused,[0;10m[39;49m[1m   425612 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245520 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+
+[0;10m61574 root      20   0  843896 208056   3148 S  11.7 19.8 [0;10m[39;49m[K
+[0;10m    1 root      20   0   43512   3868   2592 S   0.0  0.4 [0;10m[39;49m[K
+[0;10m   48 root      20   0   78224  13196  13048 S   0.0  1.3 [0;10m[39;49m[K
+[0;10m   63 root      20   0  118860      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   75 root      20   0   24692   1944   1792 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   76 root      39  19   16852      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   77 root      20   0  297916   3432   2940 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m   78 libstor+  20   0    8544     32      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   87 root      20   0  115816      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   88 root      20   0    6484      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   90 root      20   0   24312    228    208 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   91 polkitd   20   0  544900   2556   2064 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   94 root      20   0  113332    628    588 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m   96 root      20   0  425996   2332   2120 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  100 root      20   0   21836   1560   1260 S   0.0  0.1 [0;10m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[0;10mtop - 21:45:44 up 41 days,  8:35,  4 users,  load average: 0.13, 0[0;10m[39;49m[0;10m[39;49m[K
+
+%Cpu(s):[0;10m[39;49m[1m  1.2 [0;10m[39;49mus,[0;10m[39;49m[1m  0.8 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 98.0 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245640 [0;10m[39;49mfree,[0;10m[39;49m[1m   377320 [0;10m[39;49mused,[0;10m[39;49m[1m   425616 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245640 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+
+[0;10m61574 root      20   0  843896 208056   3148 S  12.7 19.8 [0;10m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[6;1H[7m Unknown command - try 'h' for help [0;10m[39;49m[K[H[0;10mtop - 21:45:46 up 41 days,  8:35,  4 users,  load average: 0.13, 0[0;10m[39;49m[0;10m[39;49m[K
+
+%Cpu(s):[0;10m[39;49m[1m  0.8 [0;10m[39;49mus,[0;10m[39;49m[1m  0.1 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 99.1 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245636 [0;10m[39;49mfree,[0;10m[39;49m[1m   377324 [0;10m[39;49mused,[0;10m[39;49m[1m   425616 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245636 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+
+[0;10m61574 root      20   0  843896 208056   3148 S  11.5 19.8 [0;10m[39;49m[K
+[0;10m[1m11769 sysadmin  20   0   54032   3800   3172 R   0.5  0.4 [0;10m[39;49m[K
+[0;10m    1 root      20   0   43512   3868   2592 S   0.0  0.4 [0;10m[39;49m[K
+[0;10m   48 root      20   0   78224  13196  13048 S   0.0  1.3 [0;10m[39;49m[K
+[0;10m   63 root      20   0  118860      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   75 root      20   0   24692   1944   1792 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   76 root      39  19   16852      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   77 root      20   0  297916   3432   2940 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m   78 libstor+  20   0    8544     32      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   87 root      20   0  115816      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   88 root      20   0    6484      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   90 root      20   0   24312    228    208 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   91 polkitd   20   0  544900   2556   2064 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   94 root      20   0  113332    628    588 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m   96 root      20   0  425996   2332   2120 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  100 root      20   0   21836   1560   1260 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m  101 dbus      20   0   25036   2380   1676 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  110 root      20   0   71800      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  111 root      20   0   71800      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  122 root      20   0  418804   3444   3256 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  123 root      20   0  113332      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  129 root      20   0  460128   3656   2852 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  198 root      20   0  113384      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  385 root      20   0   90056      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  386 root      20   0  458832    396      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  387 root      20   0  106008      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  407 root      20   0   25004      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  416 root      20   0  329420    492    424 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  419 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  420 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  421 root      20   0  237268      4      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  422 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  423 root      20   0   25868      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  425 root      20   0   22656   1264   1164 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m  437 root      20   0  101184   1636   1464 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  444 smmsp     20   0   84136   1420   1284 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m 5853 apache    20   0  329420      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m10995 sysadmin  20   0   10568   1652   1516 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m10997 sysadmin  20   0   10572   1168   1028 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m10998 sysadmin  20   0   15244   6412   2584 S   0.0  0.6 [0;10m[39;49m[K
+[0;10m11222 sysadmin  20   0   10568   1656   1524 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m11224 sysadmin  20   0   10572   1092    956 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m11225 sysadmin  20   0   15240   6440   2616 S   0.0  0.6 [0;10m[39;49m[K[6;1H[7m Unknown command - try 'h' for help [0;10m[39;49m[K[H[0;10mtop - 21:45:48 up 41 days,  8:35,  4 users,  load average: 0.12, 0[0;10m[39;49m[0;10m[39;49m[K
+
+%Cpu(s):[0;10m[39;49m[1m  1.3 [0;10m[39;49mus,[0;10m[39;49m[1m  0.2 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 98.4 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245256 [0;10m[39;49mfree,[0;10m[39;49m[1m   377696 [0;10m[39;49mused,[0;10m[39;49m[1m   425624 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245256 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+
+[0;10m61574 root      20   0  843896 208056   3148 S  12.0 19.8 [0;10m[39;49m[K
+[0;10m  100 root      20   0   21836   1560   1260 S   1.0  0.1 [0;10m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;10m  101 dbus      20   0   25036   2380   1676 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  110 root      20   0   71800      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  111 root      20   0   71800      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  122 root      20   0  418804   3444   3256 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  123 root      20   0  113332      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  129 root      20   0  460128   3656   2852 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  198 root      20   0  113384      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  385 root      20   0   90056      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  386 root      20   0  458832    396      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  387 root      20   0  106008      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  407 root      20   0   25004      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  416 root      20   0  329420    492    424 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  419 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  420 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  421 root      20   0  237268      4      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  422 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  423 root      20   0   25868      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  425 root      20   0   22656   1264   1164 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m  437 root      20   0  101184   1636   1464 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  444 smmsp     20   0   84136   1420   1284 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m 5853 apache    20   0  329420      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m10995 sysadmin  20   0   10568   1652   1516 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m10997 sysadmin  20   0   10572   1168   1028 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m10998 sysadmin  20   0   15244   6412   2584 S   0.0  0.6 [0;10m[39;49m[K
+[0;10m11222 sysadmin  20   0   10568   1656   1524 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m11224 sysadmin  20   0   10572   1092    956 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m11225 sysadmin  20   0   15240   6440   2616 S   0.0  0.6 [0;10m[39;49m[K
+[0;10m[1m11769 sysadmin  20   0   54032   3800   3172 R   0.0  0.4 [0;10m[39;49m[K[51;1H
+[K[sysadmin@csc415-server23 openfoodnetwork]$ ps
+  PID TTY          TIME CMD
+11225 pts/5    00:00:00 bash
+11770 pts/5    00:00:00 ps
+[sysadmin@csc415-server23 openfoodnetwork]$ top
+[H[J[0;10mtop - 21:46:05 up 41 days,  8:35,  4 users,  load average: 0.09, 0[0;10m[39;49m[0;10m[39;49m[K
+Tasks:[0;10m[39;49m[1m  51 [0;10m[39;49mtotal,[0;10m[39;49m[1m   1 [0;10m[39;49mrunning,[0;10m[39;49m[1m  50 [0;10m[39;49msleeping,[0;10m[39;49m[1m   0 [0;10m[39;49mstopped,[0;10m[39;49m[1m   0 [0;10m[39;49mzomb[0;10m[39;49m[0;10m[39;49m[K
+%Cpu(s):[0;10m[39;49m[1m  0.2 [0;10m[39;49mus,[0;10m[39;49m[1m  3.2 [0;10m[39;49msy,[0;10m[39;49m[1m  0.0 [0;10m[39;49mni,[0;10m[39;49m[1m 96.6 [0;10m[39;49mid,[0;10m[39;49m[1m  0.0 [0;10m[39;49mwa,[0;10m[39;49m[1m  0.0 [0;10m[39;49mhi,[0;10m[39;49m[1m  0.[0;10m[39;49m[0;10m[39;49m[K
+KiB Mem :[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   245388 [0;10m[39;49mfree,[0;10m[39;49m[1m   377456 [0;10m[39;49mused,[0;10m[39;49m[1m   425732 [0;10m[39;49mb[0;10m[39;49m[0;10m[39;49m[K
+KiB Swap:[0;10m[39;49m[1m  1048576 [0;10m[39;49mtotal,[0;10m[39;49m[1m   939520 [0;10m[39;49mfree,[0;10m[39;49m[1m   109056 [0;10m[39;49mused.[0;10m[39;49m[1m   245388 [0;10m[39;49ma[0;10m[39;49m[0;10m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM [0;10m[39;49m[K
+[0;10m    1 root      20   0   43512   3868   2592 S   0.0  0.4 [0;10m[39;49m[K
+[0;10m   48 root      20   0   78224  13196  13048 S   0.0  1.3 [0;10m[39;49m[K
+[0;10m   63 root      20   0  118860      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   75 root      20   0   24692   1944   1792 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   76 root      39  19   16852      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   77 root      20   0  297916   3432   2940 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m   78 libstor+  20   0    8544     32      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   87 root      20   0  115816      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   88 root      20   0    6484      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   90 root      20   0   24312    228    208 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m   91 polkitd   20   0  544900   2556   2064 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m   94 root      20   0  113332    628    588 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m   96 root      20   0  425996   2332   2120 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  100 root      20   0   21836   1560   1260 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m  101 dbus      20   0   25036   2380   1676 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  110 root      20   0   71800      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  111 root      20   0   71800      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  122 root      20   0  418804   3444   3256 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  123 root      20   0  113332      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  129 root      20   0  460128   3656   2852 S   0.0  0.3 [0;10m[39;49m[K
+[0;10m  198 root      20   0  113384      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  385 root      20   0   90056      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  386 root      20   0  458832    396      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  387 root      20   0  106008      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  407 root      20   0   25004      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  416 root      20   0  329420    492    424 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  419 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  420 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  421 root      20   0  237268      4      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  422 root      20   0    6468      8      4 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  423 root      20   0   25868      0      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m  425 root      20   0   22656   1264   1164 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m  437 root      20   0  101184   1636   1464 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m  444 smmsp     20   0   84136   1420   1284 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m 5853 apache    20   0  329420      4      0 S   0.0  0.0 [0;10m[39;49m[K
+[0;10m10995 sysadmin  20   0   10568   1652   1516 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m10997 sysadmin  20   0   10572   1168   1028 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m10998 sysadmin  20   0   15244   6412   2584 S   0.0  0.6 [0;10m[39;49m[K
+[0;10m11222 sysadmin  20   0   10568   1656   1524 S   0.0  0.2 [0;10m[39;49m[K
+[0;10m11224 sysadmin  20   0   10572   1092    956 S   0.0  0.1 [0;10m[39;49m[K
+[0;10m11225 sysadmin  20   0   15240   6440   2616 S   0.0  0.6 [0;10m[39;49m[K
+[0;10m[1m11771 sysadmin  20   0   54032   3760   3148 R   0.0  0.4 [0;10m[39;49m[K
+[0;10m49065 root      20   0   97680      4      0 S   0.0  0.0 [0;10m[39;49m[K[51;1H
+[K[sysadmin@csc415-server23 openfoodnetwork]$ ps
+  PID TTY          TIME CMD
+11225 pts/5    00:00:00 bash
+11772 pts/5    00:00:00 ps
+[sysadmin@csc415-server23 openfoodnetwork]$ ps -A
+  PID TTY          TIME CMD
+    1 ?        00:02:23 systemd
+   48 ?        00:00:27 systemd-journal
+   63 ?        00:00:00 lvmetad
+   75 ?        00:00:45 systemd-logind
+   76 ?        00:00:00 alsactl
+   77 ?        00:00:07 accounts-daemon
+   78 ?        00:00:09 lsmd
+   87 ?        00:00:00 abrtd
+   88 ?        00:02:35 rngd
+   90 ?        00:00:00 smartd
+   91 ?        00:00:10 polkitd
+   94 ?        00:00:01 abrt-watch-log
+   96 ?        00:00:03 ModemManager
+  100 ?        00:52:27 irqbalance
+  101 ?        00:01:45 dbus-daemon
+  110 ?        00:00:00 saslauthd
+  111 ?        00:00:00 saslauthd
+  122 ?        00:01:43 rsyslogd
+  123 ?        00:00:00 abrt-watch-log
+  129 ?        00:00:13 NetworkManager
+  198 ?        00:00:00 dhclient
+  385 ?        00:00:00 cupsd
+  386 ?        00:03:52 tuned
+  387 ?        00:00:00 sshd
+  407 ?        00:00:00 xinetd
+  416 ?        00:01:30 httpd
+  419 pts/0    00:00:00 agetty
+  420 ?        00:00:00 agetty
+  421 ?        00:00:00 gdm
+  422 pts/1    00:00:00 agetty
+  423 ?        00:00:00 atd
+  425 ?        00:00:19 crond
+  437 ?        00:01:13 sendmail
+  444 ?        00:00:01 sendmail
+ 5853 ?        00:00:00 httpd
+10995 pts/3    00:00:00 script
+10997 pts/3    00:00:00 script
+10998 pts/4    00:00:00 bash
+11222 pts/4    00:00:00 script
+11224 pts/4    00:00:00 script
+11225 pts/5    00:00:00 bash
+11773 pts/5    00:00:00 ps
+49065 ?        00:00:00 gssproxy
+49129 ?        00:00:09 libvirtd
+60002 ?        00:00:00 sshd
+60005 ?        00:00:00 sshd
+60006 pts/2    00:00:00 bash
+60754 ?        00:00:00 sshd
+60758 ?        00:00:00 sshd
+60759 pts/3    00:00:00 bash
+61574 ?        17:44:41 packagekitd
+[sysadmin@csc415-server23 openfoodnetwork]$ ps -F
+UID        PID  PPID  C    SZ   RSS PSR STIME TTY          TIME CMD
+sysadmin 11225 11224  0  3810  6440   2 21:18 pts/5    00:00:00 bas
+sysadmin 11774 11225  0 11865  3304  30 21:47 pts/5    00:00:00 ps 
+[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails     rails erev
+r [A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails erev
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails ere[K
+[K[A[sysadmin@csc415-server23 openfoodnetwork]$ bundle exec rails ere    s  serv
+er
+=> Booting Unicorn
+=> Rails 3.2.22.5 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[SKYLIGHT] [1.6.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+Exiting
+/home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize': could not connect to server: Connection refused (PG::Error)
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+	from /home/sysadmin/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+	from /home/sysadmin/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/model_schema.rb:224:in `table_exists?'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:89:in `should_persist?'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:73:in `persist'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:21:in `set'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/preferable_class_methods.rb:27:in `block in preference'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/preferable.rb:41:in `set_preference'
+	from /home/sysadmin/assignments/openfoodnetwork/config/application.rb:46:in `block in <class:Application>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `run'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `each'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/sysadmin/assignments/openfoodnetwork/config/environment.rb:5:in `<top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/skylight-1.6.1/lib/skylight/probes.rb:83:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:3:in `block in <main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `initialize'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `new'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `<main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `parse_file'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:200:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:46:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:254:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:70:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `tap'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+[sysadmin@csc415-server23 openfoodnetwork]$ servi  vice postgresql  -9.5
+ stop
+Redirecting to /bin/systemctl stop postgresql-9.5.service
+[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+[0mAuthentication is required to manage system services or units.
+Authenticating as: System Admin (sysadmin)
+Password: 
+[1;31m==== AUTHENTICATION COMPLETE ===
+[0m[sysadmin@csc415-server23 openfoodnetwork]$ bundle ec ex  xec rails serv
+er
+=> Booting Unicorn
+=> Rails 3.2.22.5 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[SKYLIGHT] [1.6.1] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+Exiting
+/home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize': could not connect to server: Connection refused (PG::Error)
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+	from /home/sysadmin/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+	from /home/sysadmin/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activerecord-3.2.22.5/lib/active_record/model_schema.rb:224:in `table_exists?'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:89:in `should_persist?'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:73:in `persist'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/store.rb:21:in `set'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/preferable_class_methods.rb:27:in `block in preference'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/bundler/gems/spree-86bf87f1b1e1/core/app/models/spree/preferences/preferable.rb:41:in `set_preference'
+	from /home/sysadmin/assignments/openfoodnetwork/config/application.rb:46:in `block in <class:Application>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:30:in `run'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `each'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/sysadmin/assignments/openfoodnetwork/config/environment.rb:5:in `<top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/polyglot-0.3.5/lib/polyglot.rb:65:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/skylight-1.6.1/lib/skylight/probes.rb:83:in `require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/activesupport-3.2.22.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:3:in `block in <main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:51:in `initialize'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `new'
+	from /home/sysadmin/assignments/openfoodnetwork/config.ru:in `<main>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `eval'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/builder.rb:40:in `parse_file'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:200:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:46:in `app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/rack-1.4.7/lib/rack/server.rb:254:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands/server.rb:70:in `start'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `tap'
+	from /home/sysadmin/.rvm/gems/ruby-2.1.5@openfoodnetwork/gems/railties-3.2.22.5/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+[sysadmin@csc415-server23 openfoodnetwork]$ logout
+bash: logout: not login shell: use `exit'
+[sysadmin@csc415-server23 openfoodnetwork]$ exit
+exit
+Script done, file is typescript
+[sysadmin@csc415-server23 openfoodnetwork]$ exit
+exit
+
+Script done on Wed May  2 21:50:25 2018
