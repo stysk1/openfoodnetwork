@@ -1185,14 +1185,14 @@ en:
 
   home_shop: Shop Now
 
-  brandstory_headline: "Food, unincorporated."
-  brandstory_intro: "Sometimes the best way to fix the system is to start a new one…"
-  brandstory_part1: "We begin from the ground up. With farmers and growers ready to tell their stories proudly and truly. With distributors ready to connect people with products fairly and honestly. With buyers who believe that better weekly shopping decisions can seriously change the world."
-  brandstory_part2: "Then we need a way to make it real. A way to empower everyone who grows, sells and buys food. A way to tell all the stories, to handle all the logistics. A way to turn transaction into transformation every day."
-  brandstory_part3: "So we build an online marketplace that levels the playing field. It’s transparent, so it creates real relationships. It’s open source, so it’s owned by everyone. It scales to regions and nations, so people start versions across the world."
-  brandstory_part4: "It works everywhere. It changes everything."
-  brandstory_part5_strong: "We call it Open Food Network."
-  brandstory_part6: "We all love food. Now we can love our food system too."
+  brandstory_headline: "Live organic."
+  brandstory_intro: "Live healthier and happier with natural foods delivered right to your home…"
+  brandstory_part1: "There is no doubting that organics and natural foods are harder to buy because of the popularity and availability of genetically-modified and factory produced foods."
+  brandstory_part2: "Our mission is to help you find the healthy, organic foods in a simpler way by connecting you to the farmers that grow them."
+  brandstory_part3: "Search for the foods you eat, create an order, and get it delivered right to your home."
+  brandstory_part4: "This is how we can all live healthier lives."
+  brandstory_part5_strong: "We call it Open Food Network - OrgoPack."
+  brandstory_part6: "We all love food. Now we can love our bodies too."
 
   learn_body: "Explore models, stories and resources to support you to develop your fair food business or organisation.  Find training, events and other opportunities to learn from peers."
   learn_cta: "Get Inspired"
@@ -1202,11 +1202,11 @@ en:
 
   system_headline: "Shopping - here's how it works."
   system_step1: "1. Search"
-  system_step1_text: "Search our diverse, independent shops for seasonal local food. Search by neighbourhood and food category, or whether you prefer delivery or pickup."
+  system_step1_text: "Search our numerous, independent shops for seasonal local food. Search by neighbourhood and food category."
   system_step2: "2. Shop"
   system_step2_text: "Transform your transactions with affordable local food from diverse producers and hubs. Know the stories behind your food and the people who make it!"
-  system_step3: "3. Pick-up / Delivery"
-  system_step3_text: "Hang on for your delivery, or visit your producer or hub for a more personal connection with your food. Food shopping as diverse as nature intended it."
+  system_step3: "3. Delivery"
+  system_step3_text: "Once your subscriptions is created, hang on for your delivery. Food shopping as diverse as nature intended it."
 
   cta_headline: "Shopping that makes the world a better place."
   cta_label: "I'm Ready"

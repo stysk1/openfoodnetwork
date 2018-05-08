@@ -2,7 +2,7 @@
 #
 # Change this, it has serious security implications.
 # Minimum 30 but usually 128 characters. To obtain run 'rake secret', or faster, 'openssl rand -hex 128'
-SECRET_TOKEN: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+SECRET_TOKEN: b586a4e6b22914ab48790e0e744ba86456585abb34588a8226fc50d596f2964470c813dfffeb9f3713e5bb5c7b4358e23671243e6259b5c69569035673173437
 
 TIMEZONE: Eastern Time (US & Canada)
 # Default country for dropdowns etc. See for codes: http://en.wikipedia.org/wiki/ISO_3166-1
@@ -20,7 +20,7 @@ CURRENCY: USD
 # You can define an email address to notify if any job outputs something.
 # But you need a working mail server setup so that the message is delivered.
 # See: config/schedule.rb
-#SCHEDULE_NOTIFICATIONS: admin@example.com
+SCHEDULE_NOTIFICATIONS: spree@example.com
 
 # Mail settings
 MAIL_HOST: 'example.com'
@@ -38,7 +38,7 @@ SMTP_PASSWORD: 'f00d'
 #DISCOURSE_URL: "https://noticeboard.openfoodnetwork.org.au"
 
 # see: https://developers.google.com/maps/documentation/javascript/get-api-key
-# GOOGLE_MAPS_API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+GOOGLE_MAPS_API_KEY: AIzaSyC8mVixUsccqEFTOssgoz3iN2j-RYudfBU
 
 # optional, see: https://www.skylight.io/oss
 # SKYLIGHT_AUTHENTICATION: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
